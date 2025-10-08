@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Elapsed Timer — since 08 Oct 2025 02:00 IST</title>
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--accent:#6ee7b7;--muted:#94a3b8}
+    html,body{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial}
+    body{display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#071025 0%, #071228 100%);color:#e6eef6}
+    .wrap{width:min(980px,94%);padding:28px;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+    h1{margin:0 0 8px;font-size:20px;color:var(--accent)}
+    p.desc{margin:0 0 20px;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+    .card{background:var(--card);padding:16px;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:96px}
+    .num{font-size:30px;font-weight:700;line-height:1;color:#fff}
+    .label{font-size:12px;color:var(--muted);margin-top:6px;text-transform:uppercase;letter-spacing:0.08em}
+    .small{font-size:13px;color:var(--muted);margin-top:12px;text-align:center}
+    footer{margin-top:18px;color:var(--muted);font-size:12px}
+    .controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+    button{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);padding:8px 10px;border-radius:8px;cursor:pointer}
+    @media (max-width:540px){.num{font-size:22px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="grid" id="timerGrid">
+      <div class="card"><div class="num" id="years">0</div><div class="label">Years</div></div>
+      <div class="card"><div class="num" id="months">0</div><div class="label">Months</div></div>
+      <div class="card"><div class="num" id="days">0</div><div class="label">Days</div></div>
+      <div class="card"><div class="num" id="hours">00</div><div class="label">Hours</div></div>
+      <div class="card"><div class="num" id="minutes">00</div><div class="label">Minutes</div></div>
+      <div class="card"><div class="num" id="seconds">00</div><div class="label">Seconds</div></div>
+    </div>
+
+    <div class="small">Reference start: <code>2025-10-08T02:00:00+05:30</code> (India Standard Time)</div>
+
+    <div class="controls">
+      <button id="togglePause">Pause</button>
+      <button id="resetToStart">Reset to start</button>
+      <button id="copyISO">Copy ISO start</button>
+    </div>
+
+    <footer>Built with plain HTML/CSS/JS — open this file in your browser. Works offline.</footer>
+  </div>
+
+  <script>
+    // Start timestamp in IST (Asia/Kolkata). Use an explicit offset so Date parses it as that zone.
+    const START_ISO = '2025-10-08T02:00:00+05:30';
+    const start = new Date(START_ISO);
+
+    const yearsEl = document.getElementById('years');
+    const monthsEl = document.getElementById('months');
+    const daysEl = document.getElementById('days');
+    const hoursEl = document.getElementById('hours');
+    const minutesEl = document.getElementById('minutes');
+    const secondsEl = document.getElementById('seconds');
+
+    let tickInterval = null;
+    let paused = false;
+
+    function pad(n){return String(n).padStart(2,'0');}
+
+    function computeElapsed(from, to){
+      // from and to are Date objects. We'll compute calendar-aware differences.
+      if (to < from) return {years:0,months:0,days:0,hours:0,minutes:0,seconds:0};
+
+      // Work with copies
+      let temp = new Date(from.getTime());
+      let years = 0;
+      // add years until next would be > to
+      while (true){
+        let next = new Date(temp.getTime());
+        next.setFullYear(next.getFullYear() + 1);
+        if (next <= to){ temp = next; years++; } else break;
+      }
+
+      let months = 0;
+      while (true){
+        let next = new Date(temp.getTime());
+        next.setMonth(next.getMonth() + 1);
+        if (next <= to){ temp = next; months++; } else break;
+      }
+
+      // Now remaining difference
+      let diffMs = to - temp; // milliseconds
+      const msInSecond = 1000;
+      const msInMinute = 60 * msInSecond;
+      const msInHour = 60 * msInMinute;
+      const msInDay = 24 * msInHour;
+
+      const days = Math.floor(diffMs / msInDay);
+      diffMs -= days * msInDay;
+      const hours = Math.floor(diffMs / msInHour);
+      diffMs -= hours * msInHour;
+      const minutes = Math.floor(diffMs / msInMinute);
+      diffMs -= minutes * msInMinute;
+      const seconds = Math.floor(diffMs / msInSecond);
+
+      return {years, months, days, hours, minutes, seconds};
+    }
+
+    function updateOnce(){
+      const now = new Date();
+      const e = computeElapsed(start, now);
+      yearsEl.textContent = e.years;
+      monthsEl.textContent = e.months;
+      daysEl.textContent = e.days;
+      hoursEl.textContent = pad(e.hours);
+      minutesEl.textContent = pad(e.minutes);
+      secondsEl.textContent = pad(e.seconds);
+    }
+
+    function startTick(){
+      if (tickInterval) clearInterval(tickInterval);
+      updateOnce();
+      tickInterval = setInterval(()=>{ if(!paused) updateOnce(); }, 1000);
+    }
+
+    document.getElementById('togglePause').addEventListener('click', (e)=>{
+      paused = !paused;
+      e.target.textContent = paused ? 'Resume' : 'Pause';
+    });
+
+    document.getElementById('resetToStart').addEventListener('click', ()=>{
+      // fast-forward the display to exactly start (useful for testing)
+      const nowBackup = new Date();
+      // temporarily show zeros by setting start to now (we won't mutate global start)
+      // Instead, show the direct difference from start to start (zero)
+      yearsEl.textContent = 0; monthsEl.textContent = 0; daysEl.textContent = 0; hoursEl.textContent='00'; minutesEl.textContent='00'; secondsEl.textContent='00';
+      paused = true; document.getElementById('togglePause').textContent = 'Resume';
+    });
+
+    document.getElementById('copyISO').addEventListener('click', async ()=>{
+      try{
+        await navigator.clipboard.writeText(START_ISO);
+        alert('Start ISO copied to clipboard: ' + START_ISO);
+      }catch(e){
+        prompt('Copy this value:', START_ISO);
+      }
+    });
+
+    // kick off
+    startTick();
+  </script>
+</body>
+</html>
