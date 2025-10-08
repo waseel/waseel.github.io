@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Elapsed Timer — since 08 Oct 2025 02:00 IST</title>
+  <title>since 08 Oct 2025 02:00 IST</title>
   <style>
     :root{--bg:#0f172a;--card:#0b1220;--accent:#6ee7b7;--muted:#94a3b8}
     html,body{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial}
@@ -33,15 +33,8 @@
       <div class="card"><div class="num" id="seconds">00</div><div class="label">Seconds</div></div>
     </div>
 
-    <div class="small">Reference start: <code>2025-10-08T02:00:00+05:30</code> (India Standard Time)</div>
+    <div class="small">Reference: <code>2025-10-08T02:00:00+05:30</code> (India Standard Time)</div>
 
-    <div class="controls">
-      <button id="togglePause">Pause</button>
-      <button id="resetToStart">Reset to start</button>
-      <button id="copyISO">Copy ISO start</button>
-    </div>
-
-    <footer>Built with plain HTML/CSS/JS — open this file in your browser. Works offline.</footer>
   </div>
 
   <script>
@@ -116,29 +109,6 @@
       updateOnce();
       tickInterval = setInterval(()=>{ if(!paused) updateOnce(); }, 1000);
     }
-
-    document.getElementById('togglePause').addEventListener('click', (e)=>{
-      paused = !paused;
-      e.target.textContent = paused ? 'Resume' : 'Pause';
-    });
-
-    document.getElementById('resetToStart').addEventListener('click', ()=>{
-      // fast-forward the display to exactly start (useful for testing)
-      const nowBackup = new Date();
-      // temporarily show zeros by setting start to now (we won't mutate global start)
-      // Instead, show the direct difference from start to start (zero)
-      yearsEl.textContent = 0; monthsEl.textContent = 0; daysEl.textContent = 0; hoursEl.textContent='00'; minutesEl.textContent='00'; secondsEl.textContent='00';
-      paused = true; document.getElementById('togglePause').textContent = 'Resume';
-    });
-
-    document.getElementById('copyISO').addEventListener('click', async ()=>{
-      try{
-        await navigator.clipboard.writeText(START_ISO);
-        alert('Start ISO copied to clipboard: ' + START_ISO);
-      }catch(e){
-        prompt('Copy this value:', START_ISO);
-      }
-    });
 
     // kick off
     startTick();
