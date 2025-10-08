@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>A long long time ago ...</title>
+  <title>A long long time ago...</title>
   <style>
     :root{--bg:#0f172a;--card:#0b1220;--accent:#6ee7b7;--muted:#94a3b8}
     html,body{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial}
@@ -53,16 +53,12 @@
 
     function computeElapsed(from, to){
       // from and to are Date objects. We'll compute calendar-aware differences.
-      let negative = false;
-      if (to < from) {
-        negative = true;
-        // Swap so we always compute positive difference, then mark negative
-        [from, to] = [to, from];
-      }
+      if (to < from) return {years:0,months:0,days:0,hours:0,minutes:0,seconds:0};
 
       // Work with copies
       let temp = new Date(from.getTime());
       let years = 0;
+      // add years until next would be > to
       while (true){
         let next = new Date(temp.getTime());
         next.setFullYear(next.getFullYear() + 1);
@@ -76,6 +72,7 @@
         if (next <= to){ temp = next; months++; } else break;
       }
 
+      // Now remaining difference
       let diffMs = to - temp; // milliseconds
       const msInSecond = 1000;
       const msInMinute = 60 * msInSecond;
@@ -90,19 +87,18 @@
       diffMs -= minutes * msInMinute;
       const seconds = Math.floor(diffMs / msInSecond);
 
-      return {years, months, days, hours, minutes, seconds, negative};
+      return {years, months, days, hours, minutes, seconds};
     }
 
     function updateOnce(){
-  const now = new Date();
-  const e = computeElapsed(start, now);
-  const sign = e.negative ? '-' : '';
-  yearsEl.textContent = sign + e.years;
-  monthsEl.textContent = sign + e.months;
-  daysEl.textContent = sign + e.days;
-  hoursEl.textContent = sign + pad(e.hours);
-  minutesEl.textContent = sign + pad(e.minutes);
-  secondsEl.textContent = sign + pad(e.seconds);
+      const now = new Date();
+      const e = computeElapsed(start, now);
+      yearsEl.textContent = e.years;
+      monthsEl.textContent = e.months;
+      daysEl.textContent = e.days;
+      hoursEl.textContent = pad(e.hours);
+      minutesEl.textContent = pad(e.minutes);
+      secondsEl.textContent = pad(e.seconds);
     }
 
     function startTick(){
