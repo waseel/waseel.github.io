@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Miles to go..</title>
+<title>Dual Timer</title>
 
 <style>
   :root {
@@ -29,6 +29,14 @@
 
   .wrap {
     width: min(900px, 92%);
+  }
+
+  .section-title {
+    margin: 24px 0 12px;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
   }
 
   .grid {
@@ -66,59 +74,81 @@
 
 <body>
 <div class="wrap">
+
+  <!-- COUNTDOWN -->
+  <div class="section-title">Countdown to 31 Dec 2026</div>
   <div class="grid">
-    <div class="card"><div class="num" id="days">0</div><div class="label">Days</div></div>
-    <div class="card"><div class="num" id="hours">00</div><div class="label">Hours</div></div>
-    <div class="card"><div class="num" id="minutes">00</div><div class="label">Minutes</div></div>
-    <div class="card"><div class="num" id="seconds">00</div><div class="label">Seconds</div></div>
+    <div class="card"><div class="num" id="cd_days">0</div><div class="label">Days</div></div>
+    <div class="card"><div class="num" id="cd_hours">00</div><div class="label">Hours</div></div>
+    <div class="card"><div class="num" id="cd_minutes">00</div><div class="label">Minutes</div></div>
+    <div class="card"><div class="num" id="cd_seconds">00</div><div class="label">Seconds</div></div>
   </div>
+
+  <!-- COUNT UP -->
+  <div class="section-title">Count Up from 18 Feb 2026</div>
+  <div class="grid">
+    <div class="card"><div class="num" id="cu_days">0</div><div class="label">Days</div></div>
+    <div class="card"><div class="num" id="cu_hours">00</div><div class="label">Hours</div></div>
+    <div class="card"><div class="num" id="cu_minutes">00</div><div class="label">Minutes</div></div>
+    <div class="card"><div class="num" id="cu_seconds">00</div><div class="label">Seconds</div></div>
+  </div>
+
 </div>
 
 <script>
-  // Target: 31 December 2026, 00:00:00 IST
-  const TARGET_ISO = '2026-12-31T00:00:00+05:30';
-  const target = new Date(TARGET_ISO);
+  const ACTIVATION = new Date('2026-02-18T00:00:00+05:30');
+  const TARGET = new Date('2026-12-31T00:00:00+05:30');
 
-  const daysEl = document.getElementById('days');
-  const hoursEl = document.getElementById('hours');
-  const minutesEl = document.getElementById('minutes');
-  const secondsEl = document.getElementById('seconds');
+  const pad = n => String(n).padStart(2,'0');
 
-  function pad(n){ return String(n).padStart(2,'0'); }
-
-  function updateCountdown() {
-    const now = new Date();
-    let diff = target - now;
-
-    if (diff <= 0) {
-      diff = 0;
-      clearInterval(interval);
-    }
-
+  function breakdown(ms) {
     const msInSecond = 1000;
     const msInMinute = 60 * msInSecond;
     const msInHour = 60 * msInMinute;
     const msInDay = 24 * msInHour;
 
-    const days = Math.floor(diff / msInDay);
-    diff %= msInDay;
+    const days = Math.floor(ms / msInDay);
+    ms %= msInDay;
 
-    const hours = Math.floor(diff / msInHour);
-    diff %= msInHour;
+    const hours = Math.floor(ms / msInHour);
+    ms %= msInHour;
 
-    const minutes = Math.floor(diff / msInMinute);
-    diff %= msInMinute;
+    const minutes = Math.floor(ms / msInMinute);
+    ms %= msInMinute;
 
-    const seconds = Math.floor(diff / msInSecond);
+    const seconds = Math.floor(ms / msInSecond);
 
-    daysEl.textContent = days;
-    hoursEl.textContent = pad(hours);
-    minutesEl.textContent = pad(minutes);
-    secondsEl.textContent = pad(seconds);
+    return {days, hours, minutes, seconds};
   }
 
-  updateCountdown();
-  const interval = setInterval(updateCountdown, 1000);
+  function update() {
+    const now = new Date();
+
+    if (now < ACTIVATION) {
+      return; // Do nothing until activation time
+    }
+
+    // COUNTDOWN
+    let cdDiff = TARGET - now;
+    if (cdDiff < 0) cdDiff = 0;
+
+    const cd = breakdown(cdDiff);
+    document.getElementById('cd_days').textContent = cd.days;
+    document.getElementById('cd_hours').textContent = pad(cd.hours);
+    document.getElementById('cd_minutes').textContent = pad(cd.minutes);
+    document.getElementById('cd_seconds').textContent = pad(cd.seconds);
+
+    // COUNT UP
+    let cuDiff = now - ACTIVATION;
+    const cu = breakdown(cuDiff);
+    document.getElementById('cu_days').textContent = cu.days;
+    document.getElementById('cu_hours').textContent = pad(cu.hours);
+    document.getElementById('cu_minutes').textContent = pad(cu.minutes);
+    document.getElementById('cu_seconds').textContent = pad(cu.seconds);
+  }
+
+  update();
+  setInterval(update, 1000);
 </script>
 
 </body>
