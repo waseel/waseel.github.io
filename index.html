@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Elapsed Time</title>
+<title>Miles to go..</title>
 
 <style>
   :root {
@@ -67,8 +67,6 @@
 <body>
 <div class="wrap">
   <div class="grid">
-    <div class="card"><div class="num" id="years">0</div><div class="label">Years</div></div>
-    <div class="card"><div class="num" id="months">0</div><div class="label">Months</div></div>
     <div class="card"><div class="num" id="days">0</div><div class="label">Days</div></div>
     <div class="card"><div class="num" id="hours">00</div><div class="label">Hours</div></div>
     <div class="card"><div class="num" id="minutes">00</div><div class="label">Minutes</div></div>
@@ -77,11 +75,10 @@
 </div>
 
 <script>
-  const START_ISO = '2025-11-30T00:00:00+05:30';
-  const start = new Date(START_ISO);
+  // Target: 31 December 2026, 00:00:00 IST
+  const TARGET_ISO = '2026-12-31T00:00:00+05:30';
+  const target = new Date(TARGET_ISO);
 
-  const yearsEl = document.getElementById('years');
-  const monthsEl = document.getElementById('months');
   const daysEl = document.getElementById('days');
   const hoursEl = document.getElementById('hours');
   const minutesEl = document.getElementById('minutes');
@@ -89,33 +86,40 @@
 
   function pad(n){ return String(n).padStart(2,'0'); }
 
-  function computeElapsed(from, to){
-    if (to < from) return {years:0,months:0,days:0,hours:0,minutes:0,seconds:0};
+  function updateCountdown() {
+    const now = new Date();
+    let diff = target - now;
 
-    let temp = new Date(from.getTime());
-    let years = 0;
-    while (true){
-      let next = new Date(temp);
-      next.setFullYear(next.getFullYear() + 1);
-      if (next <= to){ temp = next; years++; } else break;
+    if (diff <= 0) {
+      diff = 0;
+      clearInterval(interval);
     }
 
-    let months = 0;
-    while (true){
-      let next = new Date(temp);
-      next.setMonth(next.getMonth() + 1);
-      if (next <= to){ temp = next; months++; } else break;
-    }
-
-    let diffMs = to - temp;
     const msInSecond = 1000;
     const msInMinute = 60 * msInSecond;
     const msInHour = 60 * msInMinute;
     const msInDay = 24 * msInHour;
 
-    const days = Math.floor(diffMs / msInDay);
-    diffMs -= days * msInDay;
-    const hours = Math.floor(diffMs / msInHour);
-    diffMs -= hours * msInHour;
-    const minutes = Math.floor(diffMs / msInMinute);
-    diffMs -= minutes
+    const days = Math.floor(diff / msInDay);
+    diff %= msInDay;
+
+    const hours = Math.floor(diff / msInHour);
+    diff %= msInHour;
+
+    const minutes = Math.floor(diff / msInMinute);
+    diff %= msInMinute;
+
+    const seconds = Math.floor(diff / msInSecond);
+
+    daysEl.textContent = days;
+    hoursEl.textContent = pad(hours);
+    minutesEl.textContent = pad(minutes);
+    secondsEl.textContent = pad(seconds);
+  }
+
+  updateCountdown();
+  const interval = setInterval(updateCountdown, 1000);
+</script>
+
+</body>
+</html>
