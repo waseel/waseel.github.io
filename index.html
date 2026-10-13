@@ -3,19 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0b0d12" />
+  <meta name="theme-color" content="#090a12" />
 
   <title>WADTD!!</title>
 
   <style>
     :root {
       color-scheme: dark;
-      --bg: #0b0d12;
-      --card: #11151d;
-      --border: #252c38;
-      --text: #f1f5f9;
-      --muted: #8993a4;
-      --accent: #67e8f9;
+      --bg: #090a12;
+      --card: rgba(19, 21, 37, 0.88);
+      --border: rgba(139, 92, 246, 0.25);
+      --text: #f5f3ff;
+      --muted: #9698b3;
+      --cyan: #55e7ff;
+      --violet: #a78bfa;
+      --pink: #f472b6;
     }
 
     * {
@@ -34,11 +36,17 @@
       display: grid;
       place-items: center;
       padding: 24px;
+      overflow-x: hidden;
       background:
         radial-gradient(
-          ellipse at 50% 0%,
-          rgba(34, 211, 238, 0.07),
-          transparent 55%
+          ellipse at 15% 15%,
+          rgba(124, 58, 237, 0.16),
+          transparent 42%
+        ),
+        radial-gradient(
+          ellipse at 85% 85%,
+          rgba(6, 182, 212, 0.12),
+          transparent 42%
         ),
         var(--bg);
       color: var(--text);
@@ -53,43 +61,65 @@
     }
 
     .header {
-      margin-bottom: 32px;
-      text-align: center;
-    }
-
-    .status {
-      display: inline-flex;
+      display: flex;
+      flex-direction: column;
       align-items: center;
-      gap: 8px;
-      margin-bottom: 18px;
-      color: var(--accent);
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
+      margin-bottom: 38px;
     }
 
-    .dot {
-      width: 7px;
-      height: 7px;
+    /* Minimal animated heartbeat */
+    .heartbeat {
+      position: relative;
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 22px;
+    }
+
+    .heartbeat::before,
+    .heartbeat::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border: 1px solid rgba(85, 231, 255, 0.4);
       border-radius: 50%;
-      background: var(--accent);
-      box-shadow: 0 0 10px rgba(103, 232, 249, 0.65);
-      animation: pulse 2s ease-in-out infinite;
+      animation: ripple 2.4s ease-out infinite;
+    }
+
+    .heartbeat::after {
+      animation-delay: 1.2s;
+    }
+
+    .heart {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--cyan);
+      box-shadow:
+        0 0 10px rgba(85, 231, 255, 0.9),
+        0 0 25px rgba(85, 231, 255, 0.5);
+      animation: beat 1.2s ease-in-out infinite;
     }
 
     h1 {
       margin: 0;
-      font-size: clamp(28px, 6vw, 42px);
-      font-weight: 650;
-      letter-spacing: -0.055em;
+      font-size: clamp(30px, 7vw, 46px);
+      font-weight: 700;
+      letter-spacing: -0.06em;
+      color: var(--text);
     }
 
-    .subtitle {
-      margin: 12px 0 0;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.7;
+    h1 span {
+      background: linear-gradient(
+        110deg,
+        var(--cyan),
+        var(--violet) 55%,
+        var(--pink)
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
     }
 
     .timer {
@@ -100,53 +130,99 @@
 
     .unit {
       min-width: 0;
-      padding: 25px 8px 22px;
+      padding: 26px 8px 23px;
       text-align: center;
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      transition: border-color 180ms ease;
+      border-radius: 14px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+      transition:
+        transform 180ms ease,
+        border-color 180ms ease,
+        box-shadow 180ms ease;
+    }
+
+    .unit:nth-child(1) {
+      --glow: var(--violet);
+    }
+
+    .unit:nth-child(2) {
+      --glow: var(--cyan);
+    }
+
+    .unit:nth-child(3) {
+      --glow: var(--pink);
+    }
+
+    .unit:nth-child(4) {
+      --glow: var(--violet);
     }
 
     .unit:hover {
-      border-color: #3c5363;
+      transform: translateY(-3px);
+      border-color: color-mix(in srgb, var(--glow) 65%, transparent);
+      box-shadow: 0 8px 30px color-mix(
+        in srgb, var(--glow) 9%, transparent
+      );
     }
 
     .number {
       display: block;
-      font-size: clamp(25px, 5.5vw, 38px);
-      font-weight: 550;
+      font-size: clamp(25px, 5.5vw, 39px);
+      font-weight: 600;
       line-height: 1.2;
       letter-spacing: -0.045em;
       font-variant-numeric: tabular-nums;
-      font-feature-settings: "tnum";
+      color: var(--glow, var(--text));
+      text-shadow: 0 0 22px color-mix(
+        in srgb, var(--glow, var(--text)) 18%, transparent
+      );
     }
 
     .label {
       display: block;
-      margin-top: 12px;
+      margin-top: 13px;
       color: var(--muted);
       font-size: 10px;
       font-weight: 600;
-      letter-spacing: 0.13em;
+      letter-spacing: 0.15em;
       text-transform: uppercase;
     }
 
-    .footer {
-      margin-top: 25px;
-      color: var(--muted);
-      font-size: 12px;
-      line-height: 1.8;
-      text-align: center;
+    @keyframes beat {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      15% {
+        transform: scale(1.5);
+      }
+
+      30% {
+        transform: scale(1);
+      }
+
+      45% {
+        transform: scale(1.25);
+      }
+
+      60% {
+        transform: scale(1);
+        opacity: 0.85;
+      }
     }
 
-    .footer span {
-      color: #cbd5e1;
-    }
+    @keyframes ripple {
+      0% {
+        transform: scale(0.65);
+        opacity: 0.7;
+      }
 
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.4; }
+      100% {
+        transform: scale(1.7);
+        opacity: 0;
+      }
     }
 
     @media (max-width: 480px) {
@@ -155,20 +231,20 @@
       }
 
       .header {
-        margin-bottom: 25px;
+        margin-bottom: 30px;
       }
 
       .timer {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
+        gap: 11px;
       }
 
       .unit {
-        padding: 24px 8px 20px;
+        padding: 25px 8px 21px;
       }
 
       .number {
-        font-size: 34px;
+        font-size: 35px;
       }
     }
 
@@ -186,16 +262,11 @@
 <body>
   <main class="container">
     <header class="header">
-      <div class="status">
-        <span class="dot" aria-hidden="true"></span>
-        <span>Live counter</span>
+      <div class="heartbeat" aria-hidden="true">
+        <span class="heart"></span>
       </div>
 
-      <h1>WADTD<span style="color: var(--accent)">!!</span></h1>
-
-      <p class="subtitle">
-        Every second counts.
-      </p>
+      <h1>WADTD<span>!!</span></h1>
     </header>
 
     <section class="timer" aria-label="Elapsed time">
@@ -219,19 +290,12 @@
         <span class="label">Seconds</span>
       </div>
     </section>
-
-    <footer class="footer">
-      Started on <span>14 October 2026 · 12:03:35 AM IST</span>
-      <br />
-      <span>Time elapsed since the beginning.</span>
-    </footer>
   </main>
 
   <script>
-    // Fixed activation time: 14 October 2026, 00:03:35 IST.
-    // IST is UTC+05:30.
+    // 14 October 2026, 04:13:35 AM IST (UTC+05:30)
     const START_TIME = new Date(
-      "2026-10-14T00:03:35+05:30"
+      "2026-10-14T04:13:35+05:30"
     ).getTime();
 
     const elements = {
@@ -241,31 +305,34 @@
       seconds: document.getElementById("seconds")
     };
 
-    const pad = (value) => String(value).padStart(2, "0");
+    const pad = value => String(value).padStart(2, "0");
 
     function updateTimer() {
-      // Calculate from the real clock, not from the number of
-      // interval callbacks. This prevents accumulated drift.
       const elapsed = Math.max(0, Date.now() - START_TIME);
-
       const totalSeconds = Math.floor(elapsed / 1000);
 
-      const days = Math.floor(totalSeconds / 86400);
-      const hours = Math.floor((totalSeconds % 86400) / 3600);
-      const minutes = Math.floor((totalSeconds % 3600) / 60);
-      const seconds = totalSeconds % 60;
+      elements.days.textContent =
+        Math.floor(totalSeconds / 86400);
 
-      elements.days.textContent = days;
-      elements.hours.textContent = pad(hours);
-      elements.minutes.textContent = pad(minutes);
-      elements.seconds.textContent = pad(seconds);
+      elements.hours.textContent =
+        pad(Math.floor((totalSeconds % 86400) / 3600));
+
+      elements.minutes.textContent =
+        pad(Math.floor((totalSeconds % 3600) / 60));
+
+      elements.seconds.textContent =
+        pad(totalSeconds % 60);
     }
 
-    // Render immediately; don't wait for the first interval.
-    updateTimer();
+    function scheduleNextUpdate() {
+      updateTimer();
 
-    // Refresh the display every second without reloading.
-    setInterval(updateTimer, 1000);
+      // Align updates with the next real second.
+      const delay = 1000 - (Date.now() % 1000);
+      setTimeout(scheduleNextUpdate, delay);
+    }
+
+    scheduleNextUpdate();
   </script>
 </body>
 </html>
