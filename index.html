@@ -1,146 +1,271 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>WADTD!!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0d12" />
 
-<style>
-  :root {
-    --bg: #0f172a;
-    --card: #1e293b;
-    --text: #e2e8f0;
-    --muted: #94a3b8;
-    --neon: #22d3ee;
-  }
+  <title>WADTD!!</title>
 
-  html, body {
-    height: 100%;
-    margin: 0;
-    font-family: system-ui, -apple-system, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-  }
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0d12;
+      --card: #11151d;
+      --border: #252c38;
+      --text: #f1f5f9;
+      --muted: #8993a4;
+      --accent: #67e8f9;
+    }
 
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    * {
+      box-sizing: border-box;
+    }
 
-  .wrap {
-    width: min(900px, 92%);
-  }
+    html,
+    body {
+      min-height: 100%;
+      margin: 0;
+    }
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 16px;
-  }
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background:
+        radial-gradient(
+          ellipse at 50% 0%,
+          rgba(34, 211, 238, 0.07),
+          transparent 55%
+        ),
+        var(--bg);
+      color: var(--text);
+      font-family:
+        Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
 
-  /* Gap between countdown and count-up */
-  .grid + .grid {
-    margin-top: 48px;
-  }
+    .container {
+      width: min(680px, 100%);
+    }
 
-  .card {
-    background: var(--card);
-    padding: 20px 16px;
-    border-radius: 8px;
-    text-align: center;
+    .header {
+      margin-bottom: 32px;
+      text-align: center;
+    }
 
-    /* Neon border */
-    border: 1px solid var(--neon);
-    box-shadow: 0 0 6px rgba(34, 211, 238, 0.5);
-  }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 18px;
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
 
-  .num {
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 1.2;
-  }
+    .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 10px rgba(103, 232, 249, 0.65);
+      animation: pulse 2s ease-in-out infinite;
+    }
 
-  .label {
-    margin-top: 6px;
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--muted);
-  }
+    h1 {
+      margin: 0;
+      font-size: clamp(28px, 6vw, 42px);
+      font-weight: 650;
+      letter-spacing: -0.055em;
+    }
 
-  @media (max-width: 540px) {
-    .num { font-size: 22px; }
-  }
-</style>
+    .subtitle {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .timer {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .unit {
+      min-width: 0;
+      padding: 25px 8px 22px;
+      text-align: center;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      transition: border-color 180ms ease;
+    }
+
+    .unit:hover {
+      border-color: #3c5363;
+    }
+
+    .number {
+      display: block;
+      font-size: clamp(25px, 5.5vw, 38px);
+      font-weight: 550;
+      line-height: 1.2;
+      letter-spacing: -0.045em;
+      font-variant-numeric: tabular-nums;
+      font-feature-settings: "tnum";
+    }
+
+    .label {
+      display: block;
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .footer {
+      margin-top: 25px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    .footer span {
+      color: #cbd5e1;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 18px;
+      }
+
+      .header {
+        margin-bottom: 25px;
+      }
+
+      .timer {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .unit {
+        padding: 24px 8px 20px;
+      }
+
+      .number {
+        font-size: 34px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
 </head>
 
 <body>
-<div class="wrap">
+  <main class="container">
+    <header class="header">
+      <div class="status">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Live counter</span>
+      </div>
 
-  <!-- COUNTDOWN -->
-  <div class="grid">
-    <div class="card"><div class="num" id="cd_days">0</div><div class="label">Days</div></div>
-    <div class="card"><div class="num" id="cd_hours">00</div><div class="label">Hours</div></div>
-    <div class="card"><div class="num" id="cd_minutes">00</div><div class="label">Minutes</div></div>
-    <div class="card"><div class="num" id="cd_seconds">00</div><div class="label">Seconds</div></div>
-  </div>
+      <h1>WADTD<span style="color: var(--accent)">!!</span></h1>
 
+      <p class="subtitle">
+        Every second counts.
+      </p>
+    </header>
 
-</div>
+    <section class="timer" aria-label="Elapsed time">
+      <div class="unit">
+        <span class="number" id="days">0</span>
+        <span class="label">Days</span>
+      </div>
 
-<script>
-  const ACTIVATION = new Date('2026-10-14T00:03:35+05:30');
-  const TARGET = new Date('2027-03-31T00:00:00+05:30');
+      <div class="unit">
+        <span class="number" id="hours">00</span>
+        <span class="label">Hours</span>
+      </div>
 
-  const pad = n => String(n).padStart(2,'0');
+      <div class="unit">
+        <span class="number" id="minutes">00</span>
+        <span class="label">Minutes</span>
+      </div>
 
-  function breakdown(ms) {
-    const msInSecond = 1000;
-    const msInMinute = 60 * msInSecond;
-    const msInHour = 60 * msInMinute;
-    const msInDay = 24 * msInHour;
+      <div class="unit">
+        <span class="number" id="seconds">00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </section>
 
-    const days = Math.floor(ms / msInDay);
-    ms %= msInDay;
+    <footer class="footer">
+      Started on <span>14 October 2026 · 12:03:35 AM IST</span>
+      <br />
+      <span>Time elapsed since the beginning.</span>
+    </footer>
+  </main>
 
-    const hours = Math.floor(ms / msInHour);
-    ms %= msInHour;
+  <script>
+    // Fixed activation time: 14 October 2026, 00:03:35 IST.
+    // IST is UTC+05:30.
+    const START_TIME = new Date(
+      "2026-10-14T00:03:35+05:30"
+    ).getTime();
 
-    const minutes = Math.floor(ms / msInMinute);
-    ms %= msInMinute;
+    const elements = {
+      days: document.getElementById("days"),
+      hours: document.getElementById("hours"),
+      minutes: document.getElementById("minutes"),
+      seconds: document.getElementById("seconds")
+    };
 
-    const seconds = Math.floor(ms / msInSecond);
+    const pad = (value) => String(value).padStart(2, "0");
 
-    return {days, hours, minutes, seconds};
-  }
+    function updateTimer() {
+      // Calculate from the real clock, not from the number of
+      // interval callbacks. This prevents accumulated drift.
+      const elapsed = Math.max(0, Date.now() - START_TIME);
 
-  function update() {
-    const now = new Date();
+      const totalSeconds = Math.floor(elapsed / 1000);
 
-    if (now < ACTIVATION) return;
+      const days = Math.floor(totalSeconds / 86400);
+      const hours = Math.floor((totalSeconds % 86400) / 3600);
+      const minutes = Math.floor((totalSeconds % 3600) / 60);
+      const seconds = totalSeconds % 60;
 
-    // COUNTDOWN
-    let cdDiff = TARGET - now;
-    if (cdDiff < 0) cdDiff = 0;
+      elements.days.textContent = days;
+      elements.hours.textContent = pad(hours);
+      elements.minutes.textContent = pad(minutes);
+      elements.seconds.textContent = pad(seconds);
+    }
 
-    const cd = breakdown(cdDiff);
-    document.getElementById('cd_days').textContent = cd.days;
-    document.getElementById('cd_hours').textContent = pad(cd.hours);
-    document.getElementById('cd_minutes').textContent = pad(cd.minutes);
-    document.getElementById('cd_seconds').textContent = pad(cd.seconds);
+    // Render immediately; don't wait for the first interval.
+    updateTimer();
 
-    // COUNT UP
-    let cuDiff = now - ACTIVATION;
-    const cu = breakdown(cuDiff);
-    document.getElementById('cu_days').textContent = cu.days;
-    document.getElementById('cu_hours').textContent = pad(cu.hours);
-    document.getElementById('cu_minutes').textContent = pad(cu.minutes);
-    document.getElementById('cu_seconds').textContent = pad(cu.seconds);
-  }
-
-  update();
-  setInterval(update, 1000);
-</script>
-
+    // Refresh the display every second without reloading.
+    setInterval(updateTimer, 1000);
+  </script>
 </body>
 </html>
