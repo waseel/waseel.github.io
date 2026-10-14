@@ -271,20 +271,30 @@
 
     <section
       class="quote-card"
-      aria-label="Daily quotation"
+      aria-label="Quotation"
       aria-live="polite"
     >
       <div class="quote-mark" aria-hidden="true">“</div>
-      <blockquote id="quote">Loading daily quotation…</blockquote>
+      <blockquote id="quote">Loading quotation…</blockquote>
       <p class="attribution" id="leader"></p>
       <p class="work" id="work"></p>
     </section>
   </main>
 
   <script>
-    // 15 October 2026, 02:57:00 AM IST (UTC+05:30)
+    // Relationship timer start: 15 October 2026, 02:57 AM IST.
     const START_TIME =
       new Date("2026-10-15T02:57:00+05:30").getTime();
+
+    // Display a new quote every eight hours.
+    const QUOTE_INTERVAL = 8 * 60 * 60 * 1000;
+
+    const STORAGE = {
+      deck: "siempre_quote_deck",
+      position: "siempre_quote_position",
+      nextChange: "siempre_quote_next_change",
+      count: "siempre_quote_count"
+    };
 
     const elements = {
       days: document.getElementById("days"),
@@ -295,6 +305,7 @@
 
     const pad = value => String(value).padStart(2, "0");
 
+    // Update the elapsed-time counter.
     function updateTimer() {
       const elapsed = Math.max(0, Date.now() - START_TIME);
       const totalSeconds = Math.floor(elapsed / 1000);
@@ -314,203 +325,14 @@
 
     function scheduleNextUpdate() {
       updateTimer();
+
       setTimeout(
         scheduleNextUpdate,
         1000 - (Date.now() % 1000)
       );
     }
 
-    // Use the Indian Standard Time calendar date everywhere.
-    function istDateKey(date = new Date()) {
-      const parts = new Intl.DateTimeFormat("en-CA", {
-        timeZone: "Asia/Kolkata",
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit"
-      }).formatToParts(date);
-
-      const values = Object.fromEntries(
-        parts.map(part => [part.type, part.value])
-      );
-
-      return `${values.year}-${values.month}-${values.day}`;
-    }
-
-    // Fisher–Yates shuffle: each index appears exactly once.
-    function shuffleDeck(length) {
-      const deck = Array.from(
-        { length },
-        (_, index) => index
-      );
-
-      for (let i = deck.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [deck[i], deck[j]] = [deck[j], deck[i]];
-      }
-
-      return deck;
-    }
-
-    const STORAGE = {
-      deck: "siempre_quote_deck",
-      position: "siempre_quote_position",
-      date: "siempre_quote_date",
-      count: "siempre_quote_count"
-    };
-
-    function getSavedState(quoteCount) {
-      try {
-        const deck = JSON.parse(
-          localStorage.getItem(STORAGE.deck)
-        );
-
-        const position = Number(
-          localStorage.getItem(STORAGE.position)
-        );
-
-        const lastDate = localStorage.getItem(STORAGE.date);
-
-        const validDeck =
-          Array.isArray(deck) &&
-          deck.length === quoteCount &&
-          new Set(deck).size === quoteCount &&
-          deck.every(index =>
-            Number.isInteger(index) &&
-            index >= 0 &&
-            index < quoteCount
-          ) &&
-          localStorage.getItem(STORAGE.count) ===
-            String(quoteCount);
-
-        if (
-          validDeck &&
-          Number.isInteger(position) &&
-          position >= 0 &&
-          position < quoteCount
-        ) {
-          return { deck, position, lastDate };
-        }
-      } catch (error) {
-        console.warn("Could not read saved quote progress.", error);
-      }
-
-      return null;
-    }
-
-    function saveState(deck, position, dateKey, quoteCount) {
-      localStorage.setItem(
-        STORAGE.deck,
-        JSON.stringify(deck)
-      );
-      localStorage.setItem(
-        STORAGE.position,
-        String(position)
-      );
-      localStorage.setItem(
-        STORAGE.date,
-        dateKey
-      );
-      localStorage.setItem(
-        STORAGE.count,
-        String(quoteCount)
-      );
-    }
-
-    async function loadDailyQuote() {
-      const today = istDateKey();
-
-      try {
-        const response = await fetch("./quotes.json", {
-          cache: "no-store"
-        });
-
-        if (!response.ok) {
-          throw new Error(
-            `quotes.json returned HTTP ${response.status}`
-          );
-        }
-
-        const quotes = await response.json();
-
-        if (!Array.isArray(quotes) || quotes.length === 0) {
-          throw new Error("quotes.json must contain a non-empty array.");
-        }
-
-        // Ensure every item has a quote string.
-        const validQuotes = quotes.every(
-          item =>
-            item &&
-            typeof item === "object" &&
-            typeof item.quote === "string" &&
-            item.quote.trim().length > 0
-        );
-
-        if (!validQuotes) {
-          throw new Error(
-            "One or more entries in quotes.json have no valid quote text."
-          );
-        }
-
-        let state = getSavedState(quotes.length);
-
-        // Start a new cycle if no valid saved cycle exists.
-        if (!state) {
-          state = {
-            deck: shuffleDeck(quotes.length),
-            position: 0,
-            lastDate: null
-          };
-        }
-
-        // Advance at most once per IST calendar day.
-        if (state.lastDate !== today) {
-          if (state.lastDate !== null) {
-            state.position++;
-
-            // Every quote in the previous deck has been used.
-            // Start another shuffled cycle.
-            if (state.position >= quotes.length) {
-              state.deck = shuffleDeck(quotes.length);
-              state.position = 0;
-            }
-          }
-
-          state.lastDate = today;
-
-          saveState(
-            state.deck,
-            state.position,
-            today,
-            quotes.length
-          );
-        }
-
-        const quote = quotes[state.deck[state.position]];
-
-        document.getElementById("quote").textContent =
-          quote.quote;
-
-        document.getElementById("leader").textContent =
-          quote.leader || "";
-
-        document.getElementById("work").textContent =
-          quote.work || "";
-
-        console.info(
-          `Daily quote loaded. Total quotes: ${quotes.length}; ` +
-          `position: ${state.position + 1}/${quotes.length}.`
-        );
-      } catch (error) {
-        document.getElementById("quote").textContent =
-          "Could not load quotes.json. Serve this folder over HTTP or HTTPS, and keep quotes.json beside index.html.";
-
-        document.getElementById("leader").textContent = "";
-        document.getElementById("work").textContent = "";
-
-        console.error("Daily quote error:", error);
-      }
-    }
-
+    // Display the timer's start date in Indian Standard Time.
     function updateDateDisplay() {
       const formatted = new Intl.DateTimeFormat("en-IN", {
         timeZone: "Asia/Kolkata",
@@ -527,21 +349,220 @@
         `${formatted} IST`;
     }
 
+    // Fisher–Yates shuffle. Every quote index occurs exactly once.
+    function shuffleDeck(length) {
+      const deck = Array.from(
+        { length },
+        (_, index) => index
+      );
+
+      for (let i = deck.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+
+        [deck[i], deck[j]] = [deck[j], deck[i]];
+      }
+
+      return deck;
+    }
+
+    function getSavedState(count) {
+      try {
+        const deck = JSON.parse(
+          localStorage.getItem(STORAGE.deck)
+        );
+
+        const position = Number(
+          localStorage.getItem(STORAGE.position)
+        );
+
+        const nextChange = Number(
+          localStorage.getItem(STORAGE.nextChange)
+        );
+
+        const validDeck =
+          Array.isArray(deck) &&
+          deck.length === count &&
+          new Set(deck).size === count &&
+          deck.every(index =>
+            Number.isInteger(index) &&
+            index >= 0 &&
+            index < count
+          ) &&
+          localStorage.getItem(STORAGE.count) === String(count);
+
+        if (
+          validDeck &&
+          Number.isInteger(position) &&
+          position >= 0 &&
+          position < count &&
+          Number.isFinite(nextChange) &&
+          nextChange > 0
+        ) {
+          return { deck, position, nextChange };
+        }
+      } catch (error) {
+        console.warn("Could not read saved quote progress.", error);
+      }
+
+      return null;
+    }
+
+    function saveState(state, count) {
+      localStorage.setItem(
+        STORAGE.deck,
+        JSON.stringify(state.deck)
+      );
+
+      localStorage.setItem(
+        STORAGE.position,
+        String(state.position)
+      );
+
+      localStorage.setItem(
+        STORAGE.nextChange,
+        String(state.nextChange)
+      );
+
+      localStorage.setItem(
+        STORAGE.count,
+        String(count)
+      );
+    }
+
+    // Load quotes and maintain a randomized, no-repeat cycle.
+    async function loadQuote() {
+      try {
+        const response = await fetch("./quotes.json", {
+          cache: "no-store"
+        });
+
+        if (!response.ok) {
+          throw new Error(
+            `quotes.json returned HTTP ${response.status}`
+          );
+        }
+
+        const quotes = await response.json();
+
+        if (!Array.isArray(quotes) || quotes.length === 0) {
+          throw new Error(
+            "quotes.json must contain a non-empty array."
+          );
+        }
+
+        if (!quotes.every(item =>
+          item &&
+          typeof item.quote === "string" &&
+          item.quote.trim().length > 0
+        )) {
+          throw new Error(
+            "One or more quote entries are invalid."
+          );
+        }
+
+        const count = quotes.length;
+        const now = Date.now();
+
+        let state = getSavedState(count);
+
+        // Start a new shuffled cycle if there is no valid saved state.
+        if (!state) {
+          state = {
+            deck: shuffleDeck(count),
+            position: 0,
+            nextChange: now + QUOTE_INTERVAL
+          };
+        } else if (now >= state.nextChange) {
+          // Account for all eight-hour intervals that have elapsed.
+          const steps =
+            Math.floor(
+              (now - state.nextChange) / QUOTE_INTERVAL
+            ) + 1;
+
+          const totalPosition = state.position + steps;
+
+          // A new shuffled cycle starts after every quote was used.
+          if (totalPosition >= count) {
+            const completedCycles =
+              Math.floor(totalPosition / count);
+
+            state.position = totalPosition % count;
+            state.deck = shuffleDeck(count);
+
+            console.info(
+              `Completed ${completedCycles} quote cycle(s).`
+            );
+          } else {
+            state.position = totalPosition;
+          }
+
+          state.nextChange += steps * QUOTE_INTERVAL;
+        }
+
+        saveState(state, count);
+
+        const quote = quotes[state.deck[state.position]];
+
+        document.getElementById("quote").textContent =
+          quote.quote;
+
+        document.getElementById("leader").textContent =
+          quote.leader || "";
+
+        document.getElementById("work").textContent =
+          quote.work || "";
+
+        console.info(
+          `Quote ${state.position + 1} of ${count}.`
+        );
+      } catch (error) {
+        document.getElementById("quote").textContent =
+          "Could not load quotes.json. Serve this folder over HTTP or HTTPS and keep quotes.json beside index.html.";
+
+        document.getElementById("leader").textContent = "";
+        document.getElementById("work").textContent = "";
+
+        console.error("Quote loading error:", error);
+      }
+    }
+
+    // Load the current quote and start the elapsed-time counter.
     scheduleNextUpdate();
     updateDateDisplay();
-    loadDailyQuote();
+    loadQuote();
 
-    // Refresh the displayed quote when the IST date changes.
-    let displayedDateKey = istDateKey();
-
+    // Check periodically for the next eight-hour boundary.
+    // The stored timestamp preserves the schedule across refreshes.
     setInterval(() => {
-      const currentKey = istDateKey();
+      const nextChange = Number(
+        localStorage.getItem(STORAGE.nextChange)
+      );
 
-      if (currentKey !== displayedDateKey) {
-        displayedDateKey = currentKey;
-        loadDailyQuote();
+      if (
+        Number.isFinite(nextChange) &&
+        nextChange > 0 &&
+        Date.now() >= nextChange
+      ) {
+        loadQuote();
       }
-    }, 30000);
+    }, 10000);
+
+    // Reload when returning to the page after it was in the background.
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden) {
+        const nextChange = Number(
+          localStorage.getItem(STORAGE.nextChange)
+        );
+
+        if (
+          Number.isFinite(nextChange) &&
+          nextChange > 0 &&
+          Date.now() >= nextChange
+        ) {
+          loadQuote();
+        }
+      }
+    });
   </script>
 </body>
 </html>
