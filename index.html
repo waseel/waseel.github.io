@@ -1,436 +1,362 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#100609" />
-  <meta name="color-scheme" content="dark" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#180707">
   <title>Siempre</title>
 
   <style>
     :root {
       color-scheme: dark;
-      --bg: #100609;
-      --card: rgba(34, 12, 20, 0.88);
-      --border: rgba(244, 63, 94, 0.30);
-      --text: #fff1f2;
-      --muted: #c49aa4;
-      --red: #fb2948;
-      --ruby: #ff5268;
-      --ember: #ff9a76;
+      --background: #180707;
+      --surface: #260b0b;
+      --text: #f4e8e8;
+      --muted: #b99b9b;
+      --accent: #c74343;
+      --border: #512020;
     }
 
-    * { box-sizing: border-box; }
-
-    html, body {
-      min-height: 100%;
-      margin: 0;
+    * {
+      box-sizing: border-box;
     }
 
     body {
+      margin: 0;
       min-height: 100vh;
-      min-height: 100dvh;
-      display: grid;
-      place-items: center;
       padding: 24px;
-      overflow-x: hidden;
-      background:
-        radial-gradient(ellipse at 12% 12%, rgba(190, 18, 60, .22), transparent 43%),
-        radial-gradient(ellipse at 88% 86%, rgba(249, 65, 75, .13), transparent 42%),
-        var(--bg);
-      color: var(--text);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system,
-        BlinkMacSystemFont, "Segoe UI", sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .container {
-      width: min(760px, 100%);
-    }
-
-    .header {
       display: flex;
-      flex-direction: column;
       align-items: center;
-      margin-bottom: 32px;
+      justify-content: center;
+      background: var(--background);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    main {
+      width: 100%;
+      max-width: 760px;
       text-align: center;
     }
 
-    .heartbeat {
-      position: relative;
-      width: 38px;
-      height: 38px;
-      display: grid;
-      place-items: center;
-      margin-bottom: 20px;
+    h1 {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: clamp(2.8rem, 8vw, 5rem);
+      font-weight: normal;
+      letter-spacing: 0.08em;
     }
 
-    .heartbeat::before,
-    .heartbeat::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      border: 1px solid rgba(255, 82, 104, .55);
-      border-radius: 50%;
-      animation: ripple 2.4s ease-out infinite;
-    }
-
-    .heartbeat::after {
-      animation-delay: 1.2s;
-    }
-
-    .heart {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: var(--ruby);
-      box-shadow:
-        0 0 10px rgba(255, 82, 104, .95),
-        0 0 25px rgba(251, 41, 72, .55);
-      animation: beat 1.2s ease-in-out infinite;
-    }
-
-    .timer {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    .unit {
-      min-width: 0;
-      padding: 24px 8px 21px;
-      text-align: center;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, .18);
-      transition:
-        transform 180ms ease,
-        border-color 180ms ease,
-        box-shadow 180ms ease;
-    }
-
-    .unit:nth-child(1) { --glow: #ff5268; }
-    .unit:nth-child(2) { --glow: #ff304f; }
-    .unit:nth-child(3) { --glow: #ff9a76; }
-    .unit:nth-child(4) { --glow: #f43f5e; }
-
-    .unit:hover {
-      transform: translateY(-3px);
-      border-color: color-mix(in srgb, var(--glow) 70%, transparent);
-      box-shadow: 0 8px 30px color-mix(in srgb, var(--glow) 12%, transparent);
-    }
-
-    .number {
-      display: block;
-      font-size: clamp(25px, 5.5vw, 39px);
-      font-weight: 650;
-      line-height: 1.2;
-      letter-spacing: -.045em;
-      font-variant-numeric: tabular-nums;
-      color: var(--glow, var(--text));
-      text-shadow: 0 0 22px color-mix(in srgb, var(--glow, var(--text)) 20%, transparent);
-    }
-
-    .label {
-      display: block;
-      margin-top: 12px;
+    .subtitle {
+      margin: 0 0 42px;
       color: var(--muted);
-      font-size: 10px;
-      font-weight: 650;
-      letter-spacing: .15em;
+      font-size: 0.9rem;
+      letter-spacing: 0.18em;
       text-transform: uppercase;
     }
 
-    .start-time {
-      margin: 16px 0 0;
-      text-align: center;
-      color: var(--muted);
-      font-size: 12px;
-      letter-spacing: .025em;
+    .timer-section {
+      margin-bottom: 42px;
     }
 
-    .start-time strong {
-      color: #f6c4ce;
-      font-weight: 600;
+    .section-label {
+      margin-bottom: 14px;
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    #elapsed {
+      font-size: clamp(1.35rem, 5vw, 2.2rem);
+      line-height: 1.5;
+      font-variant-numeric: tabular-nums;
+    }
+
+    #elapsed-date {
+      margin-top: 8px;
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: 0.85rem;
+    }
+
+    .divider {
+      width: 70px;
+      height: 1px;
+      margin: 0 auto 36px;
+      background: var(--border);
     }
 
     .quote-card {
-      margin-top: 32px;
-      padding: clamp(22px, 5vw, 34px);
-      text-align: center;
-      background: rgba(34, 12, 20, .72);
-      border: 1px solid rgba(244, 63, 94, .24);
-      border-radius: 16px;
-      box-shadow: 0 12px 38px rgba(0, 0, 0, .16);
+      padding: clamp(24px, 5vw, 42px);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
     }
 
-    .quote-mark {
-      color: var(--red);
-      font-family: Georgia, serif;
-      font-size: 40px;
-      line-height: .8;
-      margin-bottom: 14px;
-    }
-
-    blockquote {
-      margin: 0;
-      color: var(--text);
-      font-size: clamp(18px, 3.4vw, 25px);
-      line-height: 1.55;
-      font-weight: 520;
-      letter-spacing: -.025em;
-      text-wrap: pretty;
+    #quote {
+      margin: 0 0 24px;
+      font-size: clamp(1.35rem, 4vw, 2rem);
+      line-height: 1.65;
       overflow-wrap: anywhere;
     }
 
-    .attribution {
-      margin: 20px 0 0;
-      color: var(--ruby);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: .07em;
-      text-transform: uppercase;
+    #leader {
+      margin: 0;
+      color: var(--accent);
+      font-size: 1rem;
+      line-height: 1.6;
     }
 
-    .work {
-      margin: 7px 0 0;
+    #work {
+      margin: 8px 0 0;
       color: var(--muted);
-      font-size: 12px;
+      font-size: 0.9rem;
+      line-height: 1.6;
     }
 
-    @keyframes beat {
-      0%, 100% { transform: scale(1); opacity: 1; }
-      15% { transform: scale(1.5); }
-      30% { transform: scale(1); }
-      45% { transform: scale(1.25); }
-      60% { transform: scale(1); opacity: .85; }
+    #source {
+      display: inline-block;
+      margin-top: 12px;
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: 0.8rem;
+      overflow-wrap: anywhere;
     }
 
-    @keyframes ripple {
-      0% { transform: scale(.65); opacity: .7; }
-      100% { transform: scale(1.7); opacity: 0; }
+    .quote-status {
+      margin-top: 22px;
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: 0.78rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 34px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+    }
+
+    a {
+      color: var(--accent);
     }
 
     @media (max-width: 480px) {
-      body { padding: 18px; }
-      .header { margin-bottom: 25px; }
-
-      .timer {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
+      body {
+        padding: 18px;
       }
 
-      .unit { padding: 22px 8px 19px; }
-      .number { font-size: 35px; }
-      .quote-card { margin-top: 25px; }
-    }
+      .subtitle {
+        margin-bottom: 32px;
+      }
 
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
-        animation: none !important;
-        transition: none !important;
+      .timer-section {
+        margin-bottom: 32px;
+      }
+
+      .quote-card {
+        padding: 24px 18px;
       }
     }
   </style>
 </head>
 
 <body>
-  <main class="container">
-    <header class="header">
-      <div class="heartbeat" aria-hidden="true">
-        <span class="heart"></span>
-      </div>
-    </header>
+  <main>
+    <h1>Siempre</h1>
+    <p class="subtitle">Always · Forever</p>
 
-    <section class="timer" aria-label="Elapsed time">
-      <div class="unit">
-        <span class="number" id="days">0</span>
-        <span class="label">Days</span>
-      </div>
+    <section class="timer-section">
+      <div class="section-label">Time elapsed</div>
+      <div id="elapsed" aria-live="off">Loading…</div>
+      <div id="elapsed-date"></div>
+    </section>
 
-      <div class="unit">
-        <span class="number" id="hours">00</span>
-        <span class="label">Hours</span>
-      </div>
+    <div class="divider"></div>
 
-      <div class="unit">
-        <span class="number" id="minutes">00</span>
-        <span class="label">Minutes</span>
-      </div>
+    <section class="quote-card" aria-label="Quote of the moment">
+      <blockquote id="quote">Loading quote…</blockquote>
+      <p id="leader"></p>
+      <p id="work"></p>
+      <a id="source" hidden target="_blank" rel="noopener noreferrer">
+        Read source
+      </a>
 
-      <div class="unit">
-        <span class="number" id="seconds">00</span>
-        <span class="label">Seconds</span>
+      <div class="quote-status">
+        Quote <span id="quote-number">—</span> of
+        <span id="quote-total">—</span>
+        <br>
+        Changes in <span id="next-change">—</span>
       </div>
     </section>
 
-    <p class="start-time">
-      <strong id="start-date">15 October 2026 · 02:57:00 AM IST</strong>
-    </p>
-
-    <section
-      class="quote-card"
-      aria-label="Quotation"
-      aria-live="polite"
-    >
-      <div class="quote-mark" aria-hidden="true">“</div>
-      <blockquote id="quote">Loading quotation…</blockquote>
-      <p class="attribution" id="leader"></p>
-      <p class="work" id="work"></p>
-    </section>
+    <footer>Siempre</footer>
   </main>
 
   <script>
-    // Relationship timer start: 15 October 2026, 02:57 AM IST.
-    const START_TIME =
-      new Date("2026-10-15T02:57:00+05:30").getTime();
+    "use strict";
 
-    // Display a new quote every eight hours.
-    const QUOTE_INTERVAL = 8 * 60 * 60 * 1000;
+    /*
+      Shared configuration
+      --------------------
+      Keep these values identical across devices.
 
-    const STORAGE = {
-      deck: "siempre_quote_deck",
-      position: "siempre_quote_position",
-      nextChange: "siempre_quote_next_change",
-      count: "siempre_quote_count"
-    };
+      The start time anchors both the elapsed timer and the
+      8-hour quote rotation. Do not change it if you want
+      all devices to stay synchronized with the same schedule.
+    */
+    const START_TIME = new Date(
+      "2026-10-15T02:57:00+05:30"
+    ).getTime();
 
-    const elements = {
-      days: document.getElementById("days"),
-      hours: document.getElementById("hours"),
-      minutes: document.getElementById("minutes"),
-      seconds: document.getElementById("seconds")
-    };
+    const QUOTE_INTERVAL_MS = 8 * 60 * 60 * 1000;
 
-    const pad = value => String(value).padStart(2, "0");
+    /*
+      Fixed seed for a deterministic shuffle.
 
-    // Update the elapsed-time counter.
-    function updateTimer() {
-      const elapsed = Math.max(0, Date.now() - START_TIME);
-      const totalSeconds = Math.floor(elapsed / 1000);
+      Every device runs the same shuffle algorithm with the
+      same seed and the same quotes.json, so the order matches.
+      No browser storage is used.
+    */
+    const SHUFFLE_SEED = 20261015;
 
-      elements.days.textContent =
-        Math.floor(totalSeconds / 86400);
+    const $ = (id) => document.getElementById(id);
 
-      elements.hours.textContent =
-        pad(Math.floor((totalSeconds % 86400) / 3600));
+    let quotes = [];
+    let quoteOrder = [];
 
-      elements.minutes.textContent =
-        pad(Math.floor((totalSeconds % 3600) / 60));
+    function seededRandom(seed) {
+      let state = seed >>> 0;
 
-      elements.seconds.textContent =
-        pad(totalSeconds % 60);
+      return function () {
+        state = (state + 0x6D2B79F5) >>> 0;
+
+        let value = state;
+        value = Math.imul(value ^ (value >>> 15), value | 1);
+        value ^= value + Math.imul(
+          value ^ (value >>> 7),
+          value | 61
+        );
+
+        return ((value ^ (value >>> 14)) >>> 0) / 4294967296;
+      };
     }
 
-    function scheduleNextUpdate() {
-      updateTimer();
-
-      setTimeout(
-        scheduleNextUpdate,
-        1000 - (Date.now() % 1000)
-      );
-    }
-
-    // Display the timer's start date in Indian Standard Time.
-    function updateDateDisplay() {
-      const formatted = new Intl.DateTimeFormat("en-IN", {
-        timeZone: "Asia/Kolkata",
-        day: "2-digit",
-        month: "long",
-        year: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-        second: "2-digit",
-        hour12: true
-      }).format(new Date(START_TIME));
-
-      document.getElementById("start-date").textContent =
-        `${formatted} IST`;
-    }
-
-    // Fisher–Yates shuffle. Every quote index occurs exactly once.
-    function shuffleDeck(length) {
-      const deck = Array.from(
-        { length },
+    function createQuoteOrder(count) {
+      const order = Array.from(
+        { length: count },
         (_, index) => index
       );
 
-      for (let i = deck.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
+      const random = seededRandom(SHUFFLE_SEED);
 
-        [deck[i], deck[j]] = [deck[j], deck[i]];
+      // Deterministic Fisher-Yates shuffle.
+      for (let i = order.length - 1; i > 0; i--) {
+        const j = Math.floor(random() * (i + 1));
+        [order[i], order[j]] = [order[j], order[i]];
       }
 
-      return deck;
+      return order;
     }
 
-    function getSavedState(count) {
-      try {
-        const deck = JSON.parse(
-          localStorage.getItem(STORAGE.deck)
-        );
+    function getQuotePosition(now = Date.now()) {
+      const elapsedIntervals = Math.floor(
+        (now - START_TIME) / QUOTE_INTERVAL_MS
+      );
 
-        const position = Number(
-          localStorage.getItem(STORAGE.position)
-        );
+      // Before the start time, use the first quote in the order.
+      const intervalNumber = Math.max(0, elapsedIntervals);
 
-        const nextChange = Number(
-          localStorage.getItem(STORAGE.nextChange)
-        );
+      return {
+        intervalNumber,
+        position: intervalNumber % quoteOrder.length,
+        nextChange:
+          START_TIME +
+          (intervalNumber + 1) * QUOTE_INTERVAL_MS
+      };
+    }
 
-        const validDeck =
-          Array.isArray(deck) &&
-          deck.length === count &&
-          new Set(deck).size === count &&
-          deck.every(index =>
-            Number.isInteger(index) &&
-            index >= 0 &&
-            index < count
-          ) &&
-          localStorage.getItem(STORAGE.count) === String(count);
-
-        if (
-          validDeck &&
-          Number.isInteger(position) &&
-          position >= 0 &&
-          position < count &&
-          Number.isFinite(nextChange) &&
-          nextChange > 0
-        ) {
-          return { deck, position, nextChange };
-        }
-      } catch (error) {
-        console.warn("Could not read saved quote progress.", error);
+    function renderQuote(now = Date.now()) {
+      if (quotes.length === 0 || quoteOrder.length === 0) {
+        return;
       }
 
-      return null;
+      const { intervalNumber, position, nextChange } =
+        getQuotePosition(now);
+
+      const quote = quotes[quoteOrder[position]];
+
+      $("quote").textContent = quote.quote || "";
+      $("leader").textContent = quote.leader
+        ? `— ${quote.leader}`
+        : "";
+
+      $("work").textContent = quote.work || "";
+
+      const source = $("source");
+
+      if (quote.source) {
+        source.href = quote.source;
+        source.hidden = false;
+      } else {
+        source.removeAttribute("href");
+        source.hidden = true;
+      }
+
+      $("quote-number").textContent =
+        String(position + 1);
+
+      $("quote-total").textContent =
+        String(quotes.length);
+
+      updateCountdown(nextChange, now);
     }
 
-    function saveState(state, count) {
-      localStorage.setItem(
-        STORAGE.deck,
-        JSON.stringify(state.deck)
-      );
+    function formatDuration(totalSeconds) {
+      const seconds = Math.max(0, Math.floor(totalSeconds));
 
-      localStorage.setItem(
-        STORAGE.position,
-        String(state.position)
-      );
+      const days = Math.floor(seconds / 86400);
+      const hours = Math.floor((seconds % 86400) / 3600);
+      const minutes = Math.floor((seconds % 3600) / 60);
+      const remainingSeconds = seconds % 60;
 
-      localStorage.setItem(
-        STORAGE.nextChange,
-        String(state.nextChange)
-      );
-
-      localStorage.setItem(
-        STORAGE.count,
-        String(count)
-      );
+      return `${days}d ${String(hours).padStart(2, "0")}:` +
+        `${String(minutes).padStart(2, "0")}:` +
+        `${String(remainingSeconds).padStart(2, "0")}`;
     }
 
-    // Load quotes and maintain a randomized, no-repeat cycle.
-    async function loadQuote() {
+    function updateTimer(now = Date.now()) {
+      const elapsedSeconds = Math.max(
+        0,
+        (now - START_TIME) / 1000
+      );
+
+      $("elapsed").textContent =
+        formatDuration(elapsedSeconds);
+
+      $("elapsed-date").textContent =
+        "Since " +
+        new Date(START_TIME).toLocaleString(undefined, {
+          dateStyle: "long",
+          timeStyle: "short"
+        });
+    }
+
+    function updateCountdown(nextChange, now = Date.now()) {
+      const remainingSeconds = Math.max(
+        0,
+        (nextChange - now) / 1000
+      );
+
+      $("next-change").textContent =
+        formatDuration(remainingSeconds);
+    }
+
+    async function loadQuotes() {
       try {
         const response = await fetch("./quotes.json", {
           cache: "no-store"
@@ -438,131 +364,70 @@
 
         if (!response.ok) {
           throw new Error(
-            `quotes.json returned HTTP ${response.status}`
+            `Could not load quotes.json (${response.status})`
           );
         }
 
-        const quotes = await response.json();
+        const data = await response.json();
 
-        if (!Array.isArray(quotes) || quotes.length === 0) {
+        if (!Array.isArray(data) || data.length === 0) {
           throw new Error(
-            "quotes.json must contain a non-empty array."
+            "quotes.json must contain a non-empty JSON array."
           );
         }
 
-        if (!quotes.every(item =>
-          item &&
-          typeof item.quote === "string" &&
-          item.quote.trim().length > 0
-        )) {
-          throw new Error(
-            "One or more quote entries are invalid."
-          );
-        }
-
-        const count = quotes.length;
-        const now = Date.now();
-
-        let state = getSavedState(count);
-
-        // Start a new shuffled cycle if there is no valid saved state.
-        if (!state) {
-          state = {
-            deck: shuffleDeck(count),
-            position: 0,
-            nextChange: now + QUOTE_INTERVAL
-          };
-        } else if (now >= state.nextChange) {
-          // Account for all eight-hour intervals that have elapsed.
-          const steps =
-            Math.floor(
-              (now - state.nextChange) / QUOTE_INTERVAL
-            ) + 1;
-
-          const totalPosition = state.position + steps;
-
-          // A new shuffled cycle starts after every quote was used.
-          if (totalPosition >= count) {
-            const completedCycles =
-              Math.floor(totalPosition / count);
-
-            state.position = totalPosition % count;
-            state.deck = shuffleDeck(count);
-
-            console.info(
-              `Completed ${completedCycles} quote cycle(s).`
-            );
-          } else {
-            state.position = totalPosition;
-          }
-
-          state.nextChange += steps * QUOTE_INTERVAL;
-        }
-
-        saveState(state, count);
-
-        const quote = quotes[state.deck[state.position]];
-
-        document.getElementById("quote").textContent =
-          quote.quote;
-
-        document.getElementById("leader").textContent =
-          quote.leader || "";
-
-        document.getElementById("work").textContent =
-          quote.work || "";
-
-        console.info(
-          `Quote ${state.position + 1} of ${count}.`
+        quotes = data.filter(
+          item =>
+            item &&
+            typeof item.quote === "string" &&
+            item.quote.trim().length > 0
         );
+
+        if (quotes.length === 0) {
+          throw new Error(
+            "No valid quotes were found in quotes.json."
+          );
+        }
+
+        quoteOrder = createQuoteOrder(quotes.length);
+
+        renderQuote();
       } catch (error) {
-        document.getElementById("quote").textContent =
-          "Could not load quotes.json. Serve this folder over HTTP or HTTPS and keep quotes.json beside index.html.";
-
-        document.getElementById("leader").textContent = "";
-        document.getElementById("work").textContent = "";
-
-        console.error("Quote loading error:", error);
+        console.error(error);
+        $("quote").textContent =
+          "Unable to load quotes. Check that quotes.json is " +
+          "in the same folder as index.html.";
+        $("leader").textContent = "";
+        $("work").textContent = "";
+        $("source").hidden = true;
+        $("quote-status");
       }
     }
 
-    // Load the current quote and start the elapsed-time counter.
-    scheduleNextUpdate();
-    updateDateDisplay();
-    loadQuote();
+    function updatePage() {
+      const now = Date.now();
 
-    // Check periodically for the next eight-hour boundary.
-    // The stored timestamp preserves the schedule across refreshes.
-    setInterval(() => {
-      const nextChange = Number(
-        localStorage.getItem(STORAGE.nextChange)
-      );
+      updateTimer(now);
 
-      if (
-        Number.isFinite(nextChange) &&
-        nextChange > 0 &&
-        Date.now() >= nextChange
-      ) {
-        loadQuote();
+      if (quotes.length > 0) {
+        renderQuote(now);
       }
-    }, 10000);
+    }
 
-    // Reload when returning to the page after it was in the background.
+    // Refresh when returning to a backgrounded tab or device.
     document.addEventListener("visibilitychange", () => {
       if (!document.hidden) {
-        const nextChange = Number(
-          localStorage.getItem(STORAGE.nextChange)
-        );
-
-        if (
-          Number.isFinite(nextChange) &&
-          nextChange > 0 &&
-          Date.now() >= nextChange
-        ) {
-          loadQuote();
-        }
+        updatePage();
       }
     });
+
+    // Recalculate from the shared timestamp; no saved state needed.
+    updateTimer();
+    loadQuotes();
+
+    // The page derives the active quote from the current time.
+    // It does not rely on how often this interval runs.
+    setInterval(updatePage, 1000);
   </script>
 </body>
 </html>
