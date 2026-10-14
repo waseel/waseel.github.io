@@ -1,0 +1,5000 @@
+[
+  {
+    "quote": "Workers of the world, unite!",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Without revolutionary theory there can be no revolutionary movement.",
+    "leader": "Vladimir Ilyich Lenin",
+    "work": "What Is to Be Done? (1902)",
+    "source": "https://www.marxists.org/archive/lenin/works/1901/witbd/"
+  },
+  {
+    "quote": "Tell no lies, claim no easy victories.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Injustice anywhere is a threat to justice everywhere.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "By any means necessary.",
+    "leader": "Malcolm X",
+    "work": "Speech (1964)",
+    "source": ""
+  },
+  {
+    "quote": "While revolutionaries as individuals can be murdered, you cannot kill ideas.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Each generation must discover its mission, fulfill it or betray it, in relative opacity.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "Revolution is an inalienable right of mankind. Freedom is an imperishable birthright of all.",
+    "leader": "Bhagat Singh",
+    "work": "Statement at trial (1930)",
+    "source": ""
+  },
+  {
+    "quote": "Emancipate yourselves from mental slavery; none but ourselves can free our minds.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Educate, agitate, organize.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "People cannot be developed; they can only develop themselves.",
+    "leader": "Julius Nyerere",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Without dignity there is no liberty, without justice there is no dignity, and without independence there are no free men.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We face neither East nor West; we face forward.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The great appear great because we are on our knees: Let us rise.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a lower class, I am in it.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The master's tools will never dismantle the master's house.",
+    "leader": "Audre Lorde",
+    "work": "The Master's Tools Will Never Dismantle the Master's House (1979)",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is a constant struggle.",
+    "leader": "Angela Davis",
+    "work": "Freedom Is a Constant Struggle (2016)",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The problem of the twentieth century is the problem of the color line.",
+    "leader": "W. E. B. Du Bois",
+    "work": "The Souls of Black Folk (1903)",
+    "source": ""
+  },
+  {
+    "quote": "One had better die fighting against injustice than die like a dog or a rat in a trap.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A just cause, even if weak, will end up triumphing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The true revolutionary is guided by great feelings of love.",
+    "leader": "Che Guevara",
+    "work": "Message to the Tricontinental (1967)",
+    "source": "https://www.marxists.org/archive/guevara/1967/04/16.htm"
+  },
+  {
+    "quote": "The struggle for liberation begins with refusing to accept humiliation.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The fight is never about grapes or lettuce. It is always about people.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The oppressed, having internalized the image of the oppressor, fear freedom.",
+    "leader": "Paulo Freire",
+    "work": "Pedagogy of the Oppressed (1968)",
+    "source": ""
+  },
+  {
+    "quote": "The main enemy is at home.",
+    "leader": "Karl Liebknecht",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Swaraj is my birthright and I shall have it.",
+    "leader": "Bal Gangadhar Tilak",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "You can jail a Revolutionary, but you can't jail the Revolution.",
+    "leader": "Huey P. Newton",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you dare to struggle, you dare to win.",
+    "leader": "Fred Hampton",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The masses are the masters of the revolution and construction.",
+    "leader": "Kim Il-sung",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The history of all hitherto existing society is the history of class struggles.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "It always seems impossible until it's done.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "Those who do not move, do not notice their chains.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Debt is a cleverly managed reconquest of Africa.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Decolonization is always a violent phenomenon.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Bombs and pistols do not make a revolution. The sword of revolution is sharpened on the whetting-stone of ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The poor cannot be liberated by the rich.",
+    "leader": "Julius Nyerere",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa must unite.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "To tell the truth is revolutionary.",
+    "leader": "Antonio Gramsci",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "There is nothing more precious than independence and freedom.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Be realistic, demand the impossible.",
+    "leader": "Che Guevara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The story is not over as long as the people remember.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We cannot seek achievement for ourselves and forget about progress and prosperity for our community.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Education does not change the world. Education changes people. People change the world.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The main enemy is at home.",
+    "leader": "Karl Liebknecht",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The revolution has always been in the hands of the young.",
+    "leader": "Huey P. Newton",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "All power to the people.",
+    "leader": "Fred Hampton",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The masses are the masters of the revolution and construction.",
+    "leader": "Kim Il-sung",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The proletarians have nothing to lose but their chains.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "There is no easy walk to freedom anywhere.",
+    "leader": "Nelson Mandela",
+    "work": "Long Walk to Freedom (1994)",
+    "source": ""
+  },
+  {
+    "quote": "The people are the source of our strength.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A riot is the language of the unheard.",
+    "leader": "Martin Luther King Jr.",
+    "work": "The Other America (1967)",
+    "source": ""
+  },
+  {
+    "quote": "The working class demands the right to make its own mistakes.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "You cannot carry out fundamental change without a certain amount of madness.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "The duty of every revolutionary is to make the revolution.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle of the people is the source of all victories.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The independence of Ghana is meaningless unless it is linked up with the total liberation of Africa.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "There is no such thing as a single-issue struggle because we do not live single-issue lives.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "You have to act as if it were possible to radically transform the world.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The old world is dying, and the new world struggles to be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of Palestine is the cause of every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Washing one's hands of the conflict between the powerful and the powerless means to side with the powerful.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The free development of each is the condition for the free development of all.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "Overcoming poverty is not a task of charity, it is an act of justice.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for freedom is a struggle for the right to be human.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "The only way we'll get freedom for ourselves is to identify ourselves with every oppressed people in the world.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in our hands.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Imperialism leaves behind germs of rot which we must remove from our land and our minds.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "It is an ideal for which I am prepared to die.",
+    "leader": "Nelson Mandela",
+    "work": "Rivonia Trial Speech (1964)",
+    "source": ""
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must emancipate ourselves before we can emancipate others.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom of mind is the real freedom.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle of the people is the source of all victories.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The only protection against injustice in man is power.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Activism is the rent I pay for living on the planet.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Hope is a discipline.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "History teaches, but it has no pupils.",
+    "leader": "Antonio Gramsci",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "One had better die fighting against injustice than die like a dog or a rat in a trap.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A just cause, even if weak, will end up triumphing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our people have a passionate love of independence, freedom and peace.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Above all, always be capable of feeling deeply any injustice committed against anyone, anywhere in the world.",
+    "leader": "Che Guevara",
+    "work": "Letter to his children (1965)",
+    "source": ""
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We cannot seek achievement for ourselves and forget about progress and prosperity for our community.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Reading the world always precedes reading the word.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Men make their own history, but they do not make it as they please.",
+    "leader": "Karl Marx",
+    "work": "The Eighteenth Brumaire of Louis Bonaparte (1852)",
+    "source": "https://www.marxists.org/archive/marx/works/1852/18th-brumaire/"
+  },
+  {
+    "quote": "No one is born hating another person because of the colour of his skin.",
+    "leader": "Nelson Mandela",
+    "work": "Long Walk to Freedom (1994)",
+    "source": ""
+  },
+  {
+    "quote": "The liberation struggle is a process of cultural creation.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The most revolutionary act is to declare what is happening.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Power never takes a step back except in the face of more power.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The revolution and women's liberation go together.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The unification of the people is the foundation of their strength.",
+    "leader": "Frantz Fanon",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We are not afraid of the future, we are building it.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If the deaf are to hear, the sound has to be very loud.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We are Indians, firstly and lastly.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle of the people is the source of all victories.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Seek ye first the political kingdom and all things shall be added unto you.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The working class demands the right to make its own mistakes.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The most common way people give up their power is by thinking they don't have any.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We do this until we free us.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The challenge of modernity is to live without illusions and without becoming disillusioned.",
+    "leader": "Antonio Gramsci",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The revolution is not an apple that falls when it is ripe. You have to make it fall.",
+    "leader": "Che Guevara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for justice is not a sprint; it is a long-distance race.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "No one can be authentically human while he prevents others from being so.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "From each according to his ability, to each according to his needs.",
+    "leader": "Karl Marx",
+    "work": "Critique of the Gotha Programme (1875)",
+    "source": "https://www.marxists.org/archive/marx/works/1875/gotha/ch01.htm"
+  },
+  {
+    "quote": "The struggle is my life.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The weapon of theory and the weapon of practice must go together.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Without general elections, without unrestricted freedom of press and assembly, without a free struggle of opinion, life dies out in every public institution.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/"
+  },
+  {
+    "quote": "You can't separate peace from freedom because no one can be at peace unless he has his freedom.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The revolution cannot triumph without the emancipation of women.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must work to decolonize our minds.",
+    "leader": "Frantz Fanon",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The people are the masters of their own destiny.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Inquilab Zindabad!",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must emancipate ourselves before we can emancipate others.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A great man is different from an eminent one in that he is ready to be the servant of society.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Without dignity there is no liberty, without justice there is no dignity, and without independence there are no free men.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The forces that unite us are intrinsic and greater than the superimposed influences that keep us apart.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Every moment is an organizing opportunity, every person a potential activist, every minute a chance to change the world.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "To speak a true word is to transform the world.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The tradition of all dead generations weighs like a nightmare on the brains of the living.",
+    "leader": "Karl Marx",
+    "work": "The Eighteenth Brumaire of Louis Bonaparte (1852)",
+    "source": "https://www.marxists.org/archive/marx/works/1852/18th-brumaire/"
+  },
+  {
+    "quote": "The most potent weapon in the hands of the oppressor is the mind of the oppressed.",
+    "leader": "Steve Biko",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is a struggle for human dignity and freedom.",
+    "leader": "Leila Khaled",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Bourgeois society stands at the crossroads, either transition to socialism or regression into barbarism.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Junius Pamphlet (1916)",
+    "source": "https://www.marxists.org/archive/luxemburg/1915/junius/"
+  },
+  {
+    "quote": "A revolutionary woman can't have no reactionary man.",
+    "leader": "Assata Shakur",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The hungry person is not a free person.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people that oppresses another cannot be free.",
+    "leader": "Karl Marx",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The duty of every revolutionary is to make the revolution.",
+    "leader": "Carlos Marighella",
+    "work": "Minimanual of the Urban Guerrilla (1969)",
+    "source": "https://www.marxists.org/archive/marighella-carlos/1969/06/minimanual-urban-guerrilla/index.ht m"
+  },
+  {
+    "quote": "The cause of death is not the illness, but the oppressor.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "To speak a true word is to transform the world, part two.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Capital is dead labour, that, vampire-like, only lives by sucking living labour.",
+    "leader": "Karl Marx",
+    "work": "Capital, Volume I (1867)",
+    "source": "https://www.marxists.org/archive/marx/works/1867-c1/"
+  },
+  {
+    "quote": "To be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others.",
+    "leader": "Nelson Mandela",
+    "work": "Long Walk to Freedom (1994)",
+    "source": ""
+  },
+  {
+    "quote": "Always bear in mind that the people are not fighting for ideas, for the things in anyone's head. They are fighting to win material benefits.",
+    "leader": "Amílcar Cabral",
+    "work": "National Liberation and Culture (1970)",
+    "source": ""
+  },
+  {
+    "quote": "Tomorrow the revolution will already rise up again, clashing its weapons, and to your terror it will proclaim with trumpets sounding: I was, I am, I shall be!",
+    "leader": "Rosa Luxemburg",
+    "work": "Order Prevails in Berlin (1919)",
+    "source": "https://www.marxists.org/archive/luxemburg/1919/01/14.htm"
+  },
+  {
+    "quote": "Be peaceful, be courteous, obey the law, respect everyone; but if someone puts his hand on you, send him to the cemetery.",
+    "leader": "Malcolm X",
+    "work": "Malcolm X Speaks (1965)",
+    "source": ""
+  },
+  {
+    "quote": "We must choose between champagne for a few or drinking water for all.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Colonialism is not a thinking machine, it is violence in its natural state, and it will only yield when confronted with greater violence.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "Condemn me, it does not matter. History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": "https://www.marxists.org/history/cuba/archive/castro/1953/10/16.htm"
+  },
+  {
+    "quote": "Revolution is an inalienable right of mankind. Freedom is an imperishable birthright of all.",
+    "leader": "Bhagat Singh",
+    "work": "Statement in the Sessions Court (1929)",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Educate, agitate, organize.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle of the people is the source of all victories.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa must unite.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are, we only want the earth.",
+    "leader": "James Connolly",
+    "work": "Songs of Freedom (1907)",
+    "source": ""
+  },
+  {
+    "quote": "While there is a lower class, I am in it.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The master's tools will never dismantle the master's house.",
+    "leader": "Audre Lorde",
+    "work": "The Master's Tools Will Never Dismantle the Master's House (1979)",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is a constant struggle.",
+    "leader": "Angela Davis",
+    "work": "Freedom Is a Constant Struggle (2016)",
+    "source": ""
+  },
+  {
+    "quote": "To tell the truth is revolutionary.",
+    "leader": "Antonio Gramsci",
+    "work": "L'Ordine Nuovo (1919)",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "Appeal to the Nation (1966)",
+    "source": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1966/07/17.htm"
+  },
+  {
+    "quote": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+    "leader": "Che Guevara",
+    "work": "Socialism and Man in Cuba (1965)",
+    "source": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The fight is never about grapes or lettuce. It is always about people.",
+    "leader": "César Chávez",
+    "work": "Address to the Commonwealth Club (1984)",
+    "source": ""
+  },
+  {
+    "quote": "The oppressed, having internalized the image of the oppressor, fear freedom.",
+    "leader": "Paulo Freire",
+    "work": "Pedagogy of the Oppressed (1968)",
+    "source": ""
+  },
+  {
+    "quote": "The emancipation of the working classes must be conquered by the working classes themselves.",
+    "leader": "Karl Marx",
+    "work": "International Working Men's Association rules (1864)",
+    "source": "https://www.marxists.org/archive/marx/works/1864/10/27.htm"
+  },
+  {
+    "quote": "The struggle is my life.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Always bear in mind that the people are not fighting for ideas, for the things in anyone's head. They are fighting to win material benefits, part two.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Bourgeois society stands at the crossroads, either transition to socialism or regression into barbarism.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Junius Pamphlet (1916)",
+    "source": "https://www.marxists.org/archive/luxemburg/1915/junius/"
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must dare to invent the future.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Each generation must discover its mission, fulfill it or betray it, in relative opacity.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Emancipate yourselves from mental slavery; none but ourselves can free our minds.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The independence of Ghana is meaningless unless it is linked up with the total liberation of Africa.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "Letter to María Luisa Gómez Palacios (1971)",
+    "source": "https://www.marxists.org/archive/guevara/1964/11/25.htm"
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Reading the world always precedes reading the word.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The philosophers have only interpreted the world; the point is to change it.",
+    "leader": "Karl Marx",
+    "work": "Theses on Feuerbach (1845)",
+    "source": "https://www.marxists.org/archive/marx/works/1845/theses/theses.htm"
+  },
+  {
+    "quote": "No one is born hating another person because of the colour of his skin.",
+    "leader": "Nelson Mandela",
+    "work": "Long Walk to Freedom (1994)",
+    "source": ""
+  },
+  {
+    "quote": "The weapon of theory and the weapon of practice must go together.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Without general elections, without unrestricted freedom of press and assembly, without a free struggle of opinion, life dies out in every public institution.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/"
+  },
+  {
+    "quote": "Power never takes a step back except in the face of more power.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While revolutionaries as individuals can be murdered, you cannot kill ideas.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Imperialism leaves behind germs of rot which we must remove from our land and our minds.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "We are not afraid of the future, we are building it.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If the deaf are to hear, the sound has to be very loud.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Without dignity there is no liberty, without justice there is no dignity, and without independence there are no free men.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We face neither East nor West; we face forward.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The most common way people give up their power is by thinking they don't have any.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Hope is a discipline.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "History teaches, but it has no pupils.",
+    "leader": "Antonio Gramsci",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A just cause, even if weak, will end up triumphing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Be realistic, demand the impossible.",
+    "leader": "Che Guevara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Every moment is an organizing opportunity, every person a potential activist, every minute a chance to change the world.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "No one can be authentically human while he prevents others from being so.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Capital is dead labour, that, vampire-like, only lives by sucking living labour.",
+    "leader": "Karl Marx",
+    "work": "Capital, Volume I (1867)",
+    "source": "https://www.marxists.org/archive/marx/works/1867-c1/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Injustice anywhere is a threat to justice everywhere.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "Those who do not move, do not notice their chains.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Debt is a cleverly managed reconquest of Africa.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Decolonization is always a violent phenomenon.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "Revolution is an inalienable right of mankind. Freedom is an imperishable birthright of all.",
+    "leader": "Bhagat Singh",
+    "work": "Statement at trial (1930)",
+    "source": ""
+  },
+  {
+    "quote": "Emancipate yourselves from mental slavery; none but ourselves can free our minds.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle of the people is the source of all victories.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa must unite.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "Songs of Freedom (1907)",
+    "source": ""
+  },
+  {
+    "quote": "While there is a lower class, I am in it.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The old world is dying, and the new world struggles to be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The true revolutionary is guided by great feelings of love.",
+    "leader": "Che Guevara",
+    "work": "Message to the Tricontinental (1967)",
+    "source": "https://www.marxists.org/archive/guevara/1967/04/16.htm"
+  },
+  {
+    "quote": "The struggle for liberation begins with refusing to accept humiliation.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The fight is never about grapes or lettuce. It is always about people.",
+    "leader": "César Chávez",
+    "work": "Address to the Commonwealth Club (1984)",
+    "source": ""
+  },
+  {
+    "quote": "The oppressed, having internalized the image of the oppressor, fear freedom.",
+    "leader": "Paulo Freire",
+    "work": "Pedagogy of the Oppressed (1968)",
+    "source": ""
+  },
+  {
+    "quote": "The emancipation of the working classes must be conquered by the working classes themselves.",
+    "leader": "Karl Marx",
+    "work": "International Working Men's Association rules (1864)",
+    "source": "https://www.marxists.org/archive/marx/works/1864/10/27.htm"
+  },
+  {
+    "quote": "There is no easy walk to freedom anywhere.",
+    "leader": "Nelson Mandela",
+    "work": "Long Walk to Freedom (1994)",
+    "source": ""
+  },
+  {
+    "quote": "Tell no lies, claim no easy victories.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While revolutionaries as individuals can be murdered, you cannot kill ideas.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Educate, agitate, organize.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The great appear great because we are on our knees: Let us rise.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a lower class, I am in it.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is a constant struggle.",
+    "leader": "Angela Davis",
+    "work": "Freedom Is a Constant Struggle (2016)",
+    "source": ""
+  },
+  {
+    "quote": "To tell the truth is revolutionary.",
+    "leader": "Antonio Gramsci",
+    "work": "L'Ordine Nuovo (1919)",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "There is nothing more precious than independence and freedom.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Be realistic, demand the impossible.",
+    "leader": "Che Guevara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Every moment is an organizing opportunity, every person a potential activist, every minute a chance to change the world.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "To speak a true word is to transform the world.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Men make their own history, but they do not make it as they please.",
+    "leader": "Karl Marx",
+    "work": "The Eighteenth Brumaire of Louis Bonaparte (1852)",
+    "source": "https://www.marxists.org/archive/marx/works/1852/18th-brumaire/"
+  },
+  {
+    "quote": "No one is born hating another person because of the colour of his skin.",
+    "leader": "Nelson Mandela",
+    "work": "Long Walk to Freedom (1994)",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for freedom is a struggle for the right to be human.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "Power never takes a step back except in the face of more power.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must dare to invent the future.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Imperialism leaves behind germs of rot which we must remove from our land and our minds.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "We are not afraid of the future, we are building it.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If the deaf are to hear, the sound has to be very loud.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom of mind is the real freedom.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Without dignity there is no liberty, without justice there is no dignity, and without independence there are no free men.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "It is clear that we must find an African solution to our problems.",
+    "leader": "Julius Nyerere",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "History teaches, but it has no pupils.",
+    "leader": "Antonio Gramsci",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Above all, always be capable of feeling deeply any injustice committed against anyone, anywhere in the world.",
+    "leader": "Che Guevara",
+    "work": "Letter to his children (1965)",
+    "source": ""
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Washing one's hands of the conflict between the powerful and the powerless means to side with the powerful.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The free development of each is the condition for the free development of all.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "The most revolutionary act is to declare what is happening.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must choose between champagne for a few or drinking water for all.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Activism is the rent I pay for living on the planet.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We do this until we free us.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "Appeal to the Nation (1966)",
+    "source": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1966/07/17.htm"
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "Letter to María Luisa Gómez Palacios (1971)",
+    "source": "https://www.marxists.org/archive/guevara/1964/11/25.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for justice is not a sprint; it is a long-distance race.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "No one can be authentically human while he prevents others from being so.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The emancipation of the working classes must be conquered by the working classes themselves.",
+    "leader": "Karl Marx",
+    "work": "International Working Men's Association rules (1864)",
+    "source": "https://www.marxists.org/archive/marx/works/1864/10/27.htm"
+  },
+  {
+    "quote": "The struggle is my life.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Always bear in mind that the people are not fighting for ideas, for the things in anyone's head. They are fighting to win material benefits, part two.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Bourgeois society stands at the crossroads, either transition to socialism or regression into barbarism.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Junius Pamphlet (1916)",
+    "source": "https://www.marxists.org/archive/luxemburg/1915/junius/"
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must dare to invent the future.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Each generation must discover its mission, fulfill it or betray it, in relative opacity.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The independence of Ghana is meaningless unless it is linked up with the total liberation of Africa.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+    "leader": "Che Guevara",
+    "work": "Socialism and Man in Cuba (1965)",
+    "source": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Reading the world always precedes reading the word.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Capital is dead labour, that, vampire-like, only lives by sucking living labour.",
+    "leader": "Karl Marx",
+    "work": "Capital, Volume I (1867)",
+    "source": "https://www.marxists.org/archive/marx/works/1867-c1/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The weapon of theory and the weapon of practice must go together.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must choose between champagne for a few or drinking water for all.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom of mind is the real freedom.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Without dignity there is no liberty, without justice there is no dignity, and without independence there are no free men.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a lower class, I am in it.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "History teaches, but it has no pupils.",
+    "leader": "Antonio Gramsci",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "There is nothing more precious than independence and freedom.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "Letter to María Luisa Gómez Palacios (1971)",
+    "source": "https://www.marxists.org/archive/guevara/1964/11/25.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Every moment is an organizing opportunity, every person a potential activist, every minute a chance to change the world.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "To speak a true word is to transform the world.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Men make their own history, but they do not make it as they please.",
+    "leader": "Karl Marx",
+    "work": "The Eighteenth Brumaire of Louis Bonaparte (1852)",
+    "source": "https://www.marxists.org/archive/marx/works/1852/18th-brumaire/"
+  },
+  {
+    "quote": "No one is born hating another person because of the colour of his skin.",
+    "leader": "Nelson Mandela",
+    "work": "Long Walk to Freedom (1994)",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The most revolutionary act is to declare what is happening.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Power never takes a step back except in the face of more power.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must dare to invent the future.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Imperialism leaves behind germs of rot which we must remove from our land and our minds.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "We are not afraid of the future, we are building it.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If the deaf are to hear, the sound has to be very loud.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "It is clear that we must find an African solution to our problems.",
+    "leader": "Julius Nyerere",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The old world is dying, and the new world struggles to be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Be realistic, demand the impossible.",
+    "leader": "Che Guevara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Washing one's hands of the conflict between the powerful and the powerless means to side with the powerful.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The history of all hitherto existing society is the history of class struggles.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "There is no easy walk to freedom anywhere.",
+    "leader": "Nelson Mandela",
+    "work": "Long Walk to Freedom (1994)",
+    "source": ""
+  },
+  {
+    "quote": "The weapon of theory and the weapon of practice must go together.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A riot is the language of the unheard.",
+    "leader": "Martin Luther King Jr.",
+    "work": "The Other America (1967)",
+    "source": ""
+  },
+  {
+    "quote": "Tomorrow the revolution will already rise up again, clashing its weapons, and to your terror it will proclaim with trumpets sounding: I was, I am, I shall be!",
+    "leader": "Rosa Luxemburg",
+    "work": "Order Prevails in Berlin (1919)",
+    "source": "https://www.marxists.org/archive/luxemburg/1919/01/14.htm"
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Debt is a cleverly managed reconquest of Africa.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Decolonization is always a violent phenomenon.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "Condemn me, it does not matter. History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": "https://www.marxists.org/history/cuba/archive/castro/1953/10/16.htm"
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Without dignity there is no liberty, without justice there is no dignity, and without independence there are no free men.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa must unite.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is a constant struggle.",
+    "leader": "Angela Davis",
+    "work": "Freedom Is a Constant Struggle (2016)",
+    "source": ""
+  },
+  {
+    "quote": "To tell the truth is revolutionary.",
+    "leader": "Antonio Gramsci",
+    "work": "L'Ordine Nuovo (1919)",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "Appeal to the Nation (1966)",
+    "source": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1966/07/17.htm"
+  },
+  {
+    "quote": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+    "leader": "Che Guevara",
+    "work": "Socialism and Man in Cuba (1965)",
+    "source": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The fight is never about grapes or lettuce. It is always about people.",
+    "leader": "César Chávez",
+    "work": "Address to the Commonwealth Club (1984)",
+    "source": ""
+  },
+  {
+    "quote": "The oppressed, having internalized the image of the oppressor, fear freedom.",
+    "leader": "Paulo Freire",
+    "work": "Pedagogy of the Oppressed (1968)",
+    "source": ""
+  },
+  {
+    "quote": "Capital is dead labour, that, vampire-like, only lives by sucking living labour.",
+    "leader": "Karl Marx",
+    "work": "Capital, Volume I (1867)",
+    "source": "https://www.marxists.org/archive/marx/works/1867-c1/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Tell no lies, claim no easy victories.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While revolutionaries as individuals can be murdered, you cannot kill ideas.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a lower class, I am in it.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "Letter to María Luisa Gómez Palacios (1971)",
+    "source": "https://www.marxists.org/archive/guevara/1964/11/25.htm"
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Reading the world always precedes reading the word.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The free development of each is the condition for the free development of all.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "The most revolutionary act is to declare what is happening.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must choose between champagne for a few or drinking water for all.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Activism is the rent I pay for living on the planet.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We do this until we free us.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "Appeal to the Nation (1966)",
+    "source": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1966/07/17.htm"
+  },
+  {
+    "quote": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+    "leader": "Che Guevara",
+    "work": "Socialism and Man in Cuba (1965)",
+    "source": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for justice is not a sprint; it is a long-distance race.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "No one can be authentically human while he prevents others from being so.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The emancipation of the working classes must be conquered by the working classes themselves.",
+    "leader": "Karl Marx",
+    "work": "International Working Men's Association rules (1864)",
+    "source": "https://www.marxists.org/archive/marx/works/1864/10/27.htm"
+  },
+  {
+    "quote": "The struggle is my life.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Tell no lies, claim no easy victories.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While revolutionaries as individuals can be murdered, you cannot kill ideas.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa must unite.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The old world is dying, and the new world struggles to be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "Letter to María Luisa Gómez Palacios (1971)",
+    "source": "https://www.marxists.org/archive/guevara/1964/11/25.htm"
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Reading the world always precedes reading the word.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The free development of each is the condition for the free development of all.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "The most revolutionary act is to declare what is happening.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must choose between champagne for a few or drinking water for all.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Activism is the rent I pay for living on the planet.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We do this until we free us.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "Appeal to the Nation (1966)",
+    "source": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1966/07/17.htm"
+  },
+  {
+    "quote": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+    "leader": "Che Guevara",
+    "work": "Socialism and Man in Cuba (1965)",
+    "source": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for justice is not a sprint; it is a long-distance race.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "No one can be authentically human while he prevents others from being so.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The emancipation of the working classes must be conquered by the working classes themselves.",
+    "leader": "Karl Marx",
+    "work": "International Working Men's Association rules (1864)",
+    "source": "https://www.marxists.org/archive/marx/works/1864/10/27.htm"
+  },
+  {
+    "quote": "The struggle is my life.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Tell no lies, claim no easy victories.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While revolutionaries as individuals can be murdered, you cannot kill ideas.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa must unite.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The old world is dying, and the new world struggles to be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "Letter to María Luisa Gómez Palacios (1971)",
+    "source": "https://www.marxists.org/archive/guevara/1964/11/25.htm"
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Reading the world always precedes reading the word.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The free development of each is the condition for the free development of all.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "The most revolutionary act is to declare what is happening.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must choose between champagne for a few or drinking water for all.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Activism is the rent I pay for living on the planet.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We do this until we free us.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "Appeal to the Nation (1966)",
+    "source": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1966/07/17.htm"
+  },
+  {
+    "quote": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+    "leader": "Che Guevara",
+    "work": "Socialism and Man in Cuba (1965)",
+    "source": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for justice is not a sprint; it is a long-distance race.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "No one can be authentically human while he prevents others from being so.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The emancipation of the working classes must be conquered by the working classes themselves.",
+    "leader": "Karl Marx",
+    "work": "International Working Men's Association rules (1864)",
+    "source": "https://www.marxists.org/archive/marx/works/1864/10/27.htm"
+  },
+  {
+    "quote": "The struggle is my life.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Tell no lies, claim no easy victories.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While revolutionaries as individuals can be murdered, you cannot kill ideas.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa must unite.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The old world is dying, and the new world struggles to be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "Letter to María Luisa Gómez Palacios (1971)",
+    "source": "https://www.marxists.org/archive/guevara/1964/11/25.htm"
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Reading the world always precedes reading the word.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The free development of each is the condition for the free development of all.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "The most revolutionary act is to declare what is happening.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must choose between champagne for a few or drinking water for all.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Activism is the rent I pay for living on the planet.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We do this until we free us.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "Appeal to the Nation (1966)",
+    "source": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1966/07/17.htm"
+  },
+  {
+    "quote": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+    "leader": "Che Guevara",
+    "work": "Socialism and Man in Cuba (1965)",
+    "source": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for justice is not a sprint; it is a long-distance race.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "No one can be authentically human while he prevents others from being so.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The emancipation of the working classes must be conquered by the working classes themselves.",
+    "leader": "Karl Marx",
+    "work": "International Working Men's Association rules (1864)",
+    "source": "https://www.marxists.org/archive/marx/works/1864/10/27.htm"
+  },
+  {
+    "quote": "The struggle is my life.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Tell no lies, claim no easy victories.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While revolutionaries as individuals can be murdered, you cannot kill ideas.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa must unite.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The old world is dying, and the new world struggles to be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "Letter to María Luisa Gómez Palacios (1971)",
+    "source": "https://www.marxists.org/archive/guevara/1964/11/25.htm"
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Reading the world always precedes reading the word.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The free development of each is the condition for the free development of all.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "The most revolutionary act is to declare what is happening.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must choose between champagne for a few or drinking water for all.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Activism is the rent I pay for living on the planet.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We do this until we free us.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "Appeal to the Nation (1966)",
+    "source": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1966/07/17.htm"
+  },
+  {
+    "quote": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+    "leader": "Che Guevara",
+    "work": "Socialism and Man in Cuba (1965)",
+    "source": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for justice is not a sprint; it is a long-distance race.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "No one can be authentically human while he prevents others from being so.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The emancipation of the working classes must be conquered by the working classes themselves.",
+    "leader": "Karl Marx",
+    "work": "International Working Men's Association rules (1864)",
+    "source": "https://www.marxists.org/archive/marx/works/1864/10/27.htm"
+  },
+  {
+    "quote": "The struggle is my life.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Tell no lies, claim no easy victories.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While revolutionaries as individuals can be murdered, you cannot kill ideas.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa must unite.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The old world is dying, and the new world struggles to be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "Letter to María Luisa Gómez Palacios (1971)",
+    "source": "https://www.marxists.org/archive/guevara/1964/11/25.htm"
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Reading the world always precedes reading the word.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The free development of each is the condition for the free development of all.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "The most revolutionary act is to declare what is happening.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must choose between champagne for a few or drinking water for all.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Activism is the rent I pay for living on the planet.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We do this until we free us.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "Appeal to the Nation (1966)",
+    "source": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1966/07/17.htm"
+  },
+  {
+    "quote": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+    "leader": "Che Guevara",
+    "work": "Socialism and Man in Cuba (1965)",
+    "source": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for justice is not a sprint; it is a long-distance race.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "No one can be authentically human while he prevents others from being so.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The emancipation of the working classes must be conquered by the working classes themselves.",
+    "leader": "Karl Marx",
+    "work": "International Working Men's Association rules (1864)",
+    "source": "https://www.marxists.org/archive/marx/works/1864/10/27.htm"
+  },
+  {
+    "quote": "The struggle is my life.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Tell no lies, claim no easy victories.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While revolutionaries as individuals can be murdered, you cannot kill ideas.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa must unite.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The old world is dying, and the new world struggles to be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "Letter to María Luisa Gómez Palacios (1971)",
+    "source": "https://www.marxists.org/archive/guevara/1964/11/25.htm"
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Reading the world always precedes reading the word.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The free development of each is the condition for the free development of all.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "The most revolutionary act is to declare what is happening.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must choose between champagne for a few or drinking water for all.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Activism is the rent I pay for living on the planet.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We do this until we free us.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "Appeal to the Nation (1966)",
+    "source": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1966/07/17.htm"
+  },
+  {
+    "quote": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+    "leader": "Che Guevara",
+    "work": "Socialism and Man in Cuba (1965)",
+    "source": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for justice is not a sprint; it is a long-distance race.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "No one can be authentically human while he prevents others from being so.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The emancipation of the working classes must be conquered by the working classes themselves.",
+    "leader": "Karl Marx",
+    "work": "International Working Men's Association rules (1864)",
+    "source": "https://www.marxists.org/archive/marx/works/1864/10/27.htm"
+  },
+  {
+    "quote": "The struggle is my life.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Tell no lies, claim no easy victories.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is always and exclusively freedom for the one who thinks differently.",
+    "leader": "Rosa Luxemburg",
+    "work": "The Russian Revolution (1918)",
+    "source": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxembu rg/frequently-asked-questions-about-rosa-luxemburg"
+  },
+  {
+    "quote": "The future belongs to those who prepare for it today.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While revolutionaries as individuals can be murdered, you cannot kill ideas.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "A revolution is not a bed of roses.",
+    "leader": "Fidel Castro",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Merciless criticism and independent thinking are the two necessary traits of revolutionary thinking.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Up, you mighty race, accomplish what you will.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Political tyranny is nothing compared to social tyranny.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa must unite.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our demands most moderate are: we only want the earth.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "While there is a soul in prison, I am not free.",
+    "leader": "Eugene V. Debs",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Your silence will not protect you.",
+    "leader": "Audre Lorde",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Radical simply means grasping things at the root.",
+    "leader": "Angela Davis",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The old world is dying, and the new world struggles to be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The people must know before they can act.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The best form of saying is doing.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For the sake of the ten-year benefit, plant trees. For the sake of the hundred-year benefit, cultivate people.",
+    "leader": "Ho Chi Minh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "If you tremble with indignation at every injustice, then you are a comrade of mine.",
+    "leader": "Che Guevara",
+    "work": "Letter to María Luisa Gómez Palacios (1971)",
+    "source": "https://www.marxists.org/archive/guevara/1964/11/25.htm"
+  },
+  {
+    "quote": "The homeland is not a memory; it is a future we struggle to make.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Once social change begins, it cannot be reversed.",
+    "leader": "César Chávez",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Reading the world always precedes reading the word.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The free development of each is the condition for the free development of all.",
+    "leader": "Karl Marx & Friedrich Engels",
+    "work": "Manifesto of the Communist Party (1848)",
+    "source": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "leader": "Nelson Mandela",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Our struggle is an act of culture.",
+    "leader": "Amílcar Cabral",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.",
+    "leader": "Martin Luther King Jr.",
+    "work": "Letter from Birmingham Jail (1963)",
+    "source": ""
+  },
+  {
+    "quote": "The most revolutionary act is to declare what is happening.",
+    "leader": "Rosa Luxemburg",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "I'm for truth, no matter who tells it. I'm for justice, no matter who it's for or against.",
+    "leader": "Malcolm X",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We must choose between champagne for a few or drinking water for all.",
+    "leader": "Thomas Sankara",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "For a colonized people, the most essential value is first and foremost the land.",
+    "leader": "Frantz Fanon",
+    "work": "The Wretched of the Earth (1961)",
+    "source": ""
+  },
+  {
+    "quote": "History will absolve me.",
+    "leader": "Fidel Castro",
+    "work": "History Will Absolve Me (1953)",
+    "source": ""
+  },
+  {
+    "quote": "It is easy to kill individuals but you cannot kill the ideas.",
+    "leader": "Bhagat Singh",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "A people without the knowledge of their past history, origin and culture is like a tree without roots.",
+    "leader": "Marcus Garvey",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Cultivation of mind should be the ultimate aim of human existence.",
+    "leader": "B. R. Ambedkar",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Africa will write its own history.",
+    "leader": "Patrice Lumumba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The future of Africa is in the hands of Africans.",
+    "leader": "Kwame Nkrumah",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The cause of labour is the cause of Ireland; the cause of Ireland is the cause of labour.",
+    "leader": "James Connolly",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Activism is the rent I pay for living on the planet.",
+    "leader": "Alice Walker",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "We do this until we free us.",
+    "leader": "Mariame Kaba",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born.",
+    "leader": "Antonio Gramsci",
+    "work": "Prison Notebooks",
+    "source": ""
+  },
+  {
+    "quote": "The way to right wrongs is to turn the light of truth upon them.",
+    "leader": "Ida B. Wells",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Liberty is the right of every man to be honest.",
+    "leader": "José Martí",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "Nothing is more precious than independence and liberty.",
+    "leader": "Ho Chi Minh",
+    "work": "Appeal to the Nation (1966)",
+    "source": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1966/07/17.htm"
+  },
+  {
+    "quote": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+    "leader": "Che Guevara",
+    "work": "Socialism and Man in Cuba (1965)",
+    "source": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+  },
+  {
+    "quote": "The Palestinian cause is not a cause for Palestinians only, but a cause for every revolutionary.",
+    "leader": "Ghassan Kanafani",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "The struggle for justice is not a sprint; it is a long-distance race.",
+    "leader": "Dolores Huerta",
+    "work": "",
+    "source": ""
+  },
+  {
+    "quote": "No one can be authentically human while he prevents others from being so.",
+    "leader": "Paulo Freire",
+    "work": "",
+    "source": ""
+  }
+]
