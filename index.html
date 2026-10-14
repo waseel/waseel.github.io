@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#100609" />
   <meta name="color-scheme" content="dark" />
   <title>Siempre</title>
+
   <style>
     :root {
       color-scheme: dark;
@@ -18,8 +19,14 @@
       --ruby: #ff5268;
       --ember: #ff9a76;
     }
+
     * { box-sizing: border-box; }
-    html, body { min-height: 100%; margin: 0; }
+
+    html, body {
+      min-height: 100%;
+      margin: 0;
+    }
+
     body {
       min-height: 100vh;
       min-height: 100dvh;
@@ -32,83 +39,166 @@
         radial-gradient(ellipse at 88% 86%, rgba(249, 65, 75, .13), transparent 42%),
         var(--bg);
       color: var(--text);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
       -webkit-font-smoothing: antialiased;
     }
-    .container { width: min(760px, 100%); }
+
+    .container {
+      width: min(760px, 100%);
+    }
+
     .header {
-      display: flex; flex-direction: column; align-items: center;
-      margin-bottom: 32px; text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 32px;
+      text-align: center;
     }
+
     .heartbeat {
-      position: relative; width: 38px; height: 38px;
-      display: grid; place-items: center; margin-bottom: 20px;
+      position: relative;
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 20px;
     }
-    .heartbeat::before, .heartbeat::after {
-      content: ""; position: absolute; inset: 0;
+
+    .heartbeat::before,
+    .heartbeat::after {
+      content: "";
+      position: absolute;
+      inset: 0;
       border: 1px solid rgba(255, 82, 104, .55);
-      border-radius: 50%; animation: ripple 2.4s ease-out infinite;
+      border-radius: 50%;
+      animation: ripple 2.4s ease-out infinite;
     }
-    .heartbeat::after { animation-delay: 1.2s; }
+
+    .heartbeat::after {
+      animation-delay: 1.2s;
+    }
+
     .heart {
-      width: 10px; height: 10px; border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
       background: var(--ruby);
-      box-shadow: 0 0 10px rgba(255, 82, 104, .95), 0 0 25px rgba(251, 41, 72, .55);
+      box-shadow:
+        0 0 10px rgba(255, 82, 104, .95),
+        0 0 25px rgba(251, 41, 72, .55);
       animation: beat 1.2s ease-in-out infinite;
     }
+
     .timer {
-      display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
     }
+
     .unit {
-      min-width: 0; padding: 24px 8px 21px; text-align: center;
-      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      min-width: 0;
+      padding: 24px 8px 21px;
+      text-align: center;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
       box-shadow: 0 8px 32px rgba(0, 0, 0, .18);
-      transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+      transition:
+        transform 180ms ease,
+        border-color 180ms ease,
+        box-shadow 180ms ease;
     }
+
     .unit:nth-child(1) { --glow: #ff5268; }
     .unit:nth-child(2) { --glow: #ff304f; }
     .unit:nth-child(3) { --glow: #ff9a76; }
     .unit:nth-child(4) { --glow: #f43f5e; }
+
     .unit:hover {
       transform: translateY(-3px);
       border-color: color-mix(in srgb, var(--glow) 70%, transparent);
       box-shadow: 0 8px 30px color-mix(in srgb, var(--glow) 12%, transparent);
     }
+
     .number {
-      display: block; font-size: clamp(25px, 5.5vw, 39px); font-weight: 650;
-      line-height: 1.2; letter-spacing: -.045em; font-variant-numeric: tabular-nums;
+      display: block;
+      font-size: clamp(25px, 5.5vw, 39px);
+      font-weight: 650;
+      line-height: 1.2;
+      letter-spacing: -.045em;
+      font-variant-numeric: tabular-nums;
       color: var(--glow, var(--text));
       text-shadow: 0 0 22px color-mix(in srgb, var(--glow, var(--text)) 20%, transparent);
     }
+
     .label {
-      display: block; margin-top: 12px; color: var(--muted); font-size: 10px;
-      font-weight: 650; letter-spacing: .15em; text-transform: uppercase;
+      display: block;
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 650;
+      letter-spacing: .15em;
+      text-transform: uppercase;
     }
+
     .start-time {
-      margin: 16px 0 0; text-align: center; color: var(--muted);
-      font-size: 12px; letter-spacing: .025em;
+      margin: 16px 0 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: .025em;
     }
-    .start-time strong { color: #f6c4ce; font-weight: 600; }
+
+    .start-time strong {
+      color: #f6c4ce;
+      font-weight: 600;
+    }
+
     .quote-card {
-      margin-top: 32px; padding: clamp(22px, 5vw, 34px);
-      text-align: center; background: rgba(34, 12, 20, .72);
-      border: 1px solid rgba(244, 63, 94, .24); border-radius: 16px;
+      margin-top: 32px;
+      padding: clamp(22px, 5vw, 34px);
+      text-align: center;
+      background: rgba(34, 12, 20, .72);
+      border: 1px solid rgba(244, 63, 94, .24);
+      border-radius: 16px;
       box-shadow: 0 12px 38px rgba(0, 0, 0, .16);
     }
+
     .quote-mark {
-      color: var(--red); font-family: Georgia, serif; font-size: 40px;
-      line-height: .8; margin-bottom: 14px;
+      color: var(--red);
+      font-family: Georgia, serif;
+      font-size: 40px;
+      line-height: .8;
+      margin-bottom: 14px;
     }
+
     blockquote {
-      margin: 0; color: var(--text); font-size: clamp(18px, 3.4vw, 25px);
-      line-height: 1.55; font-weight: 520; letter-spacing: -.025em;
+      margin: 0;
+      color: var(--text);
+      font-size: clamp(18px, 3.4vw, 25px);
+      line-height: 1.55;
+      font-weight: 520;
+      letter-spacing: -.025em;
       text-wrap: pretty;
+      overflow-wrap: anywhere;
     }
+
     .attribution {
-      margin: 20px 0 0; color: var(--ruby); font-size: 12px;
-      font-weight: 700; letter-spacing: .07em; text-transform: uppercase;
+      margin: 20px 0 0;
+      color: var(--ruby);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .07em;
+      text-transform: uppercase;
     }
-    .work { margin: 7px 0 0; color: var(--muted); font-size: 12px; }
+
+    .work {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
     @keyframes beat {
       0%, 100% { transform: scale(1); opacity: 1; }
       15% { transform: scale(1.5); }
@@ -116,39 +206,74 @@
       45% { transform: scale(1.25); }
       60% { transform: scale(1); opacity: .85; }
     }
+
     @keyframes ripple {
       0% { transform: scale(.65); opacity: .7; }
       100% { transform: scale(1.7); opacity: 0; }
     }
+
     @media (max-width: 480px) {
       body { padding: 18px; }
       .header { margin-bottom: 25px; }
-      .timer { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+
+      .timer {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+      }
+
       .unit { padding: 22px 8px 19px; }
       .number { font-size: 35px; }
       .quote-card { margin-top: 25px; }
     }
+
     @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { animation: none !important; transition: none !important; }
+      *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+      }
     }
   </style>
 </head>
+
 <body>
   <main class="container">
     <header class="header">
-      <div class="heartbeat" aria-hidden="true"><span class="heart"></span></div>
+      <div class="heartbeat" aria-hidden="true">
+        <span class="heart"></span>
+      </div>
     </header>
 
     <section class="timer" aria-label="Elapsed time">
-      <div class="unit"><span class="number" id="days">0</span><span class="label">Days</span></div>
-      <div class="unit"><span class="number" id="hours">00</span><span class="label">Hours</span></div>
-      <div class="unit"><span class="number" id="minutes">00</span><span class="label">Minutes</span></div>
-      <div class="unit"><span class="number" id="seconds">00</span><span class="label">Seconds</span></div>
+      <div class="unit">
+        <span class="number" id="days">0</span>
+        <span class="label">Days</span>
+      </div>
+
+      <div class="unit">
+        <span class="number" id="hours">00</span>
+        <span class="label">Hours</span>
+      </div>
+
+      <div class="unit">
+        <span class="number" id="minutes">00</span>
+        <span class="label">Minutes</span>
+      </div>
+
+      <div class="unit">
+        <span class="number" id="seconds">00</span>
+        <span class="label">Seconds</span>
+      </div>
     </section>
 
-    <p class="start-time">Started <strong id="start-date">15 October 2026 · 01:53:00 AM IST</strong></p>
+    <p class="start-time">
+      <strong id="start-date">15 October 2026 · 02:57:00 AM IST</strong>
+    </p>
 
-    <section class="quote-card" aria-label="Daily quotation" aria-live="polite">
+    <section
+      class="quote-card"
+      aria-label="Daily quotation"
+      aria-live="polite"
+    >
       <div class="quote-mark" aria-hidden="true">“</div>
       <blockquote id="quote">Loading daily quotation…</blockquote>
       <p class="attribution" id="leader"></p>
@@ -158,7 +283,8 @@
 
   <script>
     // 15 October 2026, 02:57:00 AM IST (UTC+05:30)
-    const START_TIME = new Date("2026-10-15T02:57:00+05:30").getTime();
+    const START_TIME =
+      new Date("2026-10-15T02:57:00+05:30").getTime();
 
     const elements = {
       days: document.getElementById("days"),
@@ -172,68 +298,245 @@
     function updateTimer() {
       const elapsed = Math.max(0, Date.now() - START_TIME);
       const totalSeconds = Math.floor(elapsed / 1000);
-      elements.days.textContent = Math.floor(totalSeconds / 86400);
-      elements.hours.textContent = pad(Math.floor((totalSeconds % 86400) / 3600));
-      elements.minutes.textContent = pad(Math.floor((totalSeconds % 3600) / 60));
-      elements.seconds.textContent = pad(totalSeconds % 60);
+
+      elements.days.textContent =
+        Math.floor(totalSeconds / 86400);
+
+      elements.hours.textContent =
+        pad(Math.floor((totalSeconds % 86400) / 3600));
+
+      elements.minutes.textContent =
+        pad(Math.floor((totalSeconds % 3600) / 60));
+
+      elements.seconds.textContent =
+        pad(totalSeconds % 60);
     }
 
     function scheduleNextUpdate() {
       updateTimer();
-      setTimeout(scheduleNextUpdate, 1000 - (Date.now() % 1000));
+      setTimeout(
+        scheduleNextUpdate,
+        1000 - (Date.now() % 1000)
+      );
     }
 
+    // Use the Indian Standard Time calendar date everywhere.
     function istDateKey(date = new Date()) {
       const parts = new Intl.DateTimeFormat("en-CA", {
-        timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit"
+        timeZone: "Asia/Kolkata",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
       }).formatToParts(date);
-      const values = Object.fromEntries(parts.map(part => [part.type, part.value]));
+
+      const values = Object.fromEntries(
+        parts.map(part => [part.type, part.value])
+      );
+
       return `${values.year}-${values.month}-${values.day}`;
     }
 
-    function dailyIndex(dateKey, length) {
-      // UTC arithmetic avoids daylight-saving and local-time-zone differences.
-      const [year, month, day] = dateKey.split("-").map(Number);
-      const dayNumber = Math.floor(Date.UTC(year, month - 1, day) / 86400000);
-      return ((dayNumber % length) + length) % length;
+    // Fisher–Yates shuffle: each index appears exactly once.
+    function shuffleDeck(length) {
+      const deck = Array.from(
+        { length },
+        (_, index) => index
+      );
+
+      for (let i = deck.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [deck[i], deck[j]] = [deck[j], deck[i]];
+      }
+
+      return deck;
+    }
+
+    const STORAGE = {
+      deck: "siempre_quote_deck",
+      position: "siempre_quote_position",
+      date: "siempre_quote_date",
+      count: "siempre_quote_count"
+    };
+
+    function getSavedState(quoteCount) {
+      try {
+        const deck = JSON.parse(
+          localStorage.getItem(STORAGE.deck)
+        );
+
+        const position = Number(
+          localStorage.getItem(STORAGE.position)
+        );
+
+        const lastDate = localStorage.getItem(STORAGE.date);
+
+        const validDeck =
+          Array.isArray(deck) &&
+          deck.length === quoteCount &&
+          new Set(deck).size === quoteCount &&
+          deck.every(index =>
+            Number.isInteger(index) &&
+            index >= 0 &&
+            index < quoteCount
+          ) &&
+          localStorage.getItem(STORAGE.count) ===
+            String(quoteCount);
+
+        if (
+          validDeck &&
+          Number.isInteger(position) &&
+          position >= 0 &&
+          position < quoteCount
+        ) {
+          return { deck, position, lastDate };
+        }
+      } catch (error) {
+        console.warn("Could not read saved quote progress.", error);
+      }
+
+      return null;
+    }
+
+    function saveState(deck, position, dateKey, quoteCount) {
+      localStorage.setItem(
+        STORAGE.deck,
+        JSON.stringify(deck)
+      );
+      localStorage.setItem(
+        STORAGE.position,
+        String(position)
+      );
+      localStorage.setItem(
+        STORAGE.date,
+        dateKey
+      );
+      localStorage.setItem(
+        STORAGE.count,
+        String(quoteCount)
+      );
     }
 
     async function loadDailyQuote() {
-      const key = istDateKey();
-      try {
-        const response = await fetch("./quotes.json", { cache: "no-store" });
-        if (!response.ok) throw new Error(`Quote file returned ${response.status}`);
-        const quotes = await response.json();
-        if (!Array.isArray(quotes) || quotes.length === 0) throw new Error("No quotes found");
-        const quote = quotes[dailyIndex(key, quotes.length)];
+      const today = istDateKey();
 
-        document.getElementById("quote").textContent = quote.quote;
-        document.getElementById("leader").textContent = quote.leader;
-        document.getElementById("work").textContent = quote.work;
+      try {
+        const response = await fetch("./quotes.json", {
+          cache: "no-store"
+        });
+
+        if (!response.ok) {
+          throw new Error(
+            `quotes.json returned HTTP ${response.status}`
+          );
+        }
+
+        const quotes = await response.json();
+
+        if (!Array.isArray(quotes) || quotes.length === 0) {
+          throw new Error("quotes.json must contain a non-empty array.");
+        }
+
+        // Ensure every item has a quote string.
+        const validQuotes = quotes.every(
+          item =>
+            item &&
+            typeof item === "object" &&
+            typeof item.quote === "string" &&
+            item.quote.trim().length > 0
+        );
+
+        if (!validQuotes) {
+          throw new Error(
+            "One or more entries in quotes.json have no valid quote text."
+          );
+        }
+
+        let state = getSavedState(quotes.length);
+
+        // Start a new cycle if no valid saved cycle exists.
+        if (!state) {
+          state = {
+            deck: shuffleDeck(quotes.length),
+            position: 0,
+            lastDate: null
+          };
+        }
+
+        // Advance at most once per IST calendar day.
+        if (state.lastDate !== today) {
+          if (state.lastDate !== null) {
+            state.position++;
+
+            // Every quote in the previous deck has been used.
+            // Start another shuffled cycle.
+            if (state.position >= quotes.length) {
+              state.deck = shuffleDeck(quotes.length);
+              state.position = 0;
+            }
+          }
+
+          state.lastDate = today;
+
+          saveState(
+            state.deck,
+            state.position,
+            today,
+            quotes.length
+          );
+        }
+
+        const quote = quotes[state.deck[state.position]];
+
+        document.getElementById("quote").textContent =
+          quote.quote;
+
+        document.getElementById("leader").textContent =
+          quote.leader || "";
+
+        document.getElementById("work").textContent =
+          quote.work || "";
+
+        console.info(
+          `Daily quote loaded. Total quotes: ${quotes.length}; ` +
+          `position: ${state.position + 1}/${quotes.length}.`
+        );
       } catch (error) {
         document.getElementById("quote").textContent =
-          "Could not load quotes.json. Serve this folder over HTTP, and keep quotes.json beside index.html.";
+          "Could not load quotes.json. Serve this folder over HTTP or HTTPS, and keep quotes.json beside index.html.";
+
         document.getElementById("leader").textContent = "";
         document.getElementById("work").textContent = "";
-        console.error(error);
+
+        console.error("Daily quote error:", error);
       }
     }
 
     function updateDateDisplay() {
       const formatted = new Intl.DateTimeFormat("en-IN", {
-        timeZone: "Asia/Kolkata", day: "2-digit", month: "long", year: "numeric",
-        hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: true
+        timeZone: "Asia/Kolkata",
+        day: "2-digit",
+        month: "long",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true
       }).format(new Date(START_TIME));
-      document.getElementById("start-date").textContent = `${formatted} IST`;
+
+      document.getElementById("start-date").textContent =
+        `${formatted} IST`;
     }
 
     scheduleNextUpdate();
     updateDateDisplay();
     loadDailyQuote();
-    // If the page remains open over IST midnight, refresh the quote for the new day.
+
+    // Refresh the displayed quote when the IST date changes.
     let displayedDateKey = istDateKey();
+
     setInterval(() => {
       const currentKey = istDateKey();
+
       if (currentKey !== displayedDateKey) {
         displayedDateKey = currentKey;
         loadDailyQuote();
